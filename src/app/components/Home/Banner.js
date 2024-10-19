@@ -5,19 +5,9 @@ import Link from 'next/link'
 
 const Banner = () => {
     return (
-        <header className="relative pb-20 pt-24 overflow-hidden bg-brand" >
-            {/* <video
-                className="absolute top-0 left-0 w-full h-full object-cover -z-10"
-                autoPlay
-                loop
-                muted
-                playsInline
-            >
-                <source src="/hero_banner.mp4" type="video/mp4" />
-            </video> */}
-            {/* <HeroSlide /> */}
-            <div className='mx-20 border bg-heroBg shadow-[0px_0px_28px_5px_rgba(255,255,255,1)]'>
-                <div className="container pt-6 pb-4 flex justify-between border-b border-b-white">
+        <header className="relative h-screen overflow-hidden flex items-center justify-center bg-[url('/bg.jpg')] bg-no-repeat bg-cover bg-center" >
+            <div className='mx-20 border bg-heroBg shadow-[0px_0px_28px_5px_rgba(255,255,255,1)] px-10'>
+                <div className="pt-6 pb-4 flex justify-between border-b border-b-white">
                     <div>
                         <Link
                             href="/"
@@ -65,7 +55,7 @@ const Banner = () => {
                 </h1>
                 <div className='container flex items-center justify-between'>
                     <div className='w-1/2'>
-                        <h2 className='text-white py-8 text-6xl font-secondary tracking-tighter font-bold'>Create Exparience With Me, Make Your Website & Grow Your Business <span className='text-gray-400 text-4xl font-semibold tracking-normal'>I am a passionate MERN Stack developer, dedicated to creating web applications that are not only functional but also aesthetically pleasing. Explore my portfolio to see how I can bring your ideas to life.</span></h2>
+                        <h2 className='text-white py-8 text-6xl font-secondary font-bold'>Create Exparience With Us, Make Your Website & Grow Your Business. <span className='text-gray-400 text-2xl font-semibold tracking-normal'>I am a passionate MERN Stack developer, dedicated to creating web applications that are not only functional but also aesthetically pleasing. Explore my portfolio to see how I can bring your ideas to life.</span></h2>
                     </div>
                     <Square3dbox />
                 </div>
