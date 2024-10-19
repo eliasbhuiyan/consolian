@@ -8,6 +8,12 @@ body {
 }
 
 @layer components {
+  .service_heading{
+      @apply before:block before:-z-10 z-10 before:absolute before:-inset-1 before:-skew-y-3 before:bg-[#80ADF1] relative inline-block text-white
+  }
+  .service_heading::after{
+      @apply content-[""] absolute top-[160%] left-1/2 -translate-x-1/2  w-4 h-4 rounded-full shadow-[0_10px_10px_#80ADF1]
+  }
   .cube-outer {
     width: 400px;
     height: 400px;
