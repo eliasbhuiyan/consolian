@@ -1,6 +1,7 @@
 import localFont from "next/font/local";
 import { Roboto } from 'next/font/google'
 import "./globals.css";
+import { SideNav } from "./components/Navbar/SideNav";
 
 
 export const metadata = {
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
       <body
         className={`antialiased`}
       >
+        <SideNav />
         {children}
       </body>
     </html>

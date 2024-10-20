@@ -4,6 +4,7 @@ import HeroSlide from './HeroSlide'
 import Link from 'next/link'
 import { HeroBg } from '../Framer/HeroBg'
 import { FlipWords } from '../Framer/FlipWords'
+import { Compare } from '../Framer/Compare'
 
 const Banner = () => {
     const words = ["Better", "Cute", "Beautiful", "Modern"];
@@ -27,15 +28,6 @@ const Banner = () => {
                     </div>
                 </div>
                 <h1 className="text-white text-xl font-bold flex justify-between">
-                    {/* <span>C</span>
-                    <span>O</span>
-                    <span>N</span>
-                    <span>S</span>
-                    <span>O</span>
-                    <span>L</span>
-                    <span>I</span>
-                    <span>A</span>
-                    <span>N</span> */}
                     <span>G</span>
                     <span>E</span>
                     <span>T</span>
@@ -57,11 +49,11 @@ const Banner = () => {
                     <span>C</span>
                     <span>E</span>
                 </h1>
-                <div className='container flex items-center justify-between'>
+                <div className='container flex items-center gap-6 py-10'>
                     <div className='w-1/2'>
-                        <h2 className='text-white py-8 text-6xl font-secondary font-bold'>Create Exparience With Us, Make Your <FlipWords words={words} className={"border bg-[rgba(171,162,162,0.26)] text-green-500"} /> Website & Grow Your Business. <span className='text-gray-400 text-2xl font-semibold tracking-normal'>I am a passionate MERN Stack developer, dedicated to creating web applications that are not only functional but also aesthetically pleasing. Explore my portfolio to see how I can bring your ideas to life.</span></h2>
+                        <h2 className='text-white py-8 text-6xl font-secondary font-bold'>Create Exparience With Us, Make Your <FlipWords words={words} className={"border bg-[rgba(171,162,162,0.26)] text-green-200"} /> Website & Grow Your Business. <span className='text-gray-400 text-2xl font-semibold tracking-normal'>I am a passionate MERN Stack developer, dedicated to creating web applications that are not only functional but also aesthetically pleasing. Explore my portfolio to see how I can bring your ideas to life.</span></h2>
                     </div>
-                    <Square3dbox />
+                    <Compare />
                 </div>
             </div>
         </header>
