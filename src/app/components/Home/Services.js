@@ -13,7 +13,7 @@ const Services = () => {
             title: "Website Design",
             content: (
                 <div>
-                    <p className="text-neutral-800 dark:text-neutral-200 text-xl md:text-2xl font-normal mb-8">
+                    <p className="text-neutral-300 text-xl md:text-2xl font-normal mb-8">
                         Crafting visually appealing and user-centric websites that enhance user experience. I focus on responsive, modern designs that align with your brand identity.
                     </p>
                     <div className="h-[50vh]">
@@ -29,7 +29,7 @@ const Services = () => {
             title: "Website Development",
             content: (
                 <div>
-                    <p className="text-neutral-800 dark:text-neutral-200 text-xl md:text-2xl font-normal mb-8">
+                    <p className="text-neutral-300 text-xl md:text-2xl font-normal mb-8">
                         Building high-performance, scalable websites using the latest technologies. From single-page applications to complex platforms, I ensure functionality, security, and speed.
                     </p>
                     <div className="h-[50vh]">
@@ -45,7 +45,7 @@ const Services = () => {
             title: "App Development",
             content: (
                 <div>
-                    <p className="text-neutral-800 dark:text-neutral-200 text-xl md:text-2xl font-normal mb-4">
+                    <p className="text-neutral-300 text-xl md:text-2xl font-normal mb-4">
                         Offering custom mobile app development for both Android and iOS platforms. My apps are built to provide seamless performance, excellent UI/UX, and robust functionality.
                     </p>
                     <div className="mb-8">
@@ -78,7 +78,7 @@ const Services = () => {
             title: "UI/UX Design",
             content: (
                 <div>
-                    <p className="text-neutral-800 dark:text-neutral-200 text-xl md:text-2xl font-normal mb-4">
+                    <p className="text-neutral-300 text-xl md:text-2xl font-normal mb-4">
                         Designing seamless, intuitive user interfaces and crafting user experiences that are not only visually compelling but also functional. I focus on creating user-centered designs that improve usability, accessibility, and overall satisfaction, ensuring your product provides a delightful experience at every touchpoint.
                     </p>
                     <div className="h-[50vh]">
@@ -94,7 +94,7 @@ const Services = () => {
             title: "Website Maintenance",
             content: (
                 <div>
-                    <p className="text-neutral-800 dark:text-neutral-200 text-xl md:text-2xl font-normal mb-4">
+                    <p className="text-neutral-300 text-xl md:text-2xl font-normal mb-4">
                         I offer ongoing support to keep your website up-to-date, secure, and optimized. Whether it’s bug fixing, content updates, or performance monitoring, I ensure smooth functioning.
                     </p>
                     <div className="h-[50vh]">
@@ -110,7 +110,7 @@ const Services = () => {
             title: "SEO Optimization",
             content: (
                 <div>
-                    <p className="text-neutral-800 dark:text-neutral-200 text-xl md:text-2xl font-normal mb-4">
+                    <p className="text-neutral-300 text-xl md:text-2xl font-normal mb-4">
                         Helping your website rank higher in search engines. I implement the best SEO practices to improve visibility, drive organic traffic, and ensure long-term success.
                     </p>
                     <div className="h-[50vh]">
