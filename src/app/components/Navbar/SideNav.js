@@ -7,7 +7,6 @@ import {
     IconLayout,
     IconTerminal2,
 } from "@tabler/icons-react";
-import Image from "next/image";
 import Link from "next/link";
 
 export function SideNav() {

@@ -1,6 +1,4 @@
 import React from 'react'
-import Square3dbox from './Square3dbox'
-import HeroSlide from './HeroSlide'
 import Link from 'next/link'
 import { HeroBg } from '../Framer/HeroBg'
 import { FlipWords } from '../Framer/FlipWords'

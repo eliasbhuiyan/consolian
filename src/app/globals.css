@@ -7,6 +7,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
 @layer components {
   .service_heading{
     @apply before:block before:-z-10 z-10 before:absolute before:-inset-1 before:-skew-y-3 before:bg-cover relative inline-block text-gray-300 before:bg-[url("/heading/bg.png")] 
