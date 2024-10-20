@@ -58,26 +58,26 @@ export const MacbookScroll = ({
             className="min-h-[200vh] w-full h-4/5 overflow-hidden bg-white flex flex-col items-center py-0 md:py-80 justify-start flex-shrink-0 [perspective:800px] transform md:scale-100  scale-[0.35] sm:scale-50">
             {/* Lid */}
             <Lid
-                src="/Walmart.png"
+                src="/macbookScreen.png"
                 scaleX={scaleX}
                 scaleY={scaleY}
                 rotate={rotate}
                 translate={translate} />
             {/* Base area */}
             <div
-                className="w-[32rem] bg-gray-200 dark:bg-[#272729] rounded-2xlw-full h-4/5 overflow-hidden relative -z-10">
+                className="w-[32rem] bg-gray-200 dark:bg-[#272729] rounded-2xl h-4/5 overflow-hidden relative -z-10">
                 {/* above keyboard bar */}
                 <div className="h-10 w-full relative">
                     <div className="absolute inset-x-0 mx-auto w-[80%] h-4 bg-[#050505]" />
                 </div>
                 <div className="flex relative">
-                    <div className="mx-auto w-[10%]w-full h-4/5 overflow-hidden">
+                    <div className="mx-auto w-[10%] h-4/5 overflow-hidden">
                         <SpeakerGrid />
                     </div>
                     <div className="mx-auto w-[80%] h-full">
                         <Keypad />
                     </div>
-                    <div className="mx-auto w-[10%]w-full h-4/5 overflow-hidden">
+                    <div className="mx-auto w-[10%] h-4/5 overflow-hidden">
                         <SpeakerGrid />
                     </div>
                 </div>
@@ -110,8 +110,8 @@ export const Lid = ({
                         boxShadow: "0px 2px 0px 2px var(--neutral-900) inset",
                     }}
                     className="absolute inset-0 bg-[#010101] rounded-lg flex items-center justify-center">
-                    <span className="text-white">
-                        <p>CONSOLIAN</p>
+                    <span className="text-white text-xl [text-shadow:_7px_5px_8px_#ffffff]">
+                        CONSOLIAN
                     </span>
                 </div>
             </div>
@@ -130,7 +130,7 @@ export const Lid = ({
                     src={src}
                     alt="aceternity logo"
                     fill
-                    className="object-cover object-left-top absolute rounded-lg inset-0 h-full w-full"
+                    className="object-left-top absolute rounded-lg inset-0 w-full h-full"
                 />
             </motion.div>
         </div>)
@@ -439,9 +439,7 @@ export const Keypad = () => {
                     </div>
                 </KBtn>
                 <KBtn className="" childrenClassName="h-full justify-between py-[4px]">
-                    <div className="flex justify-end w-full pr-1">
-                        <OptionKey className="h-[6px] w-[6px]" />
-                    </div>
+                    <span></span>
                     <div className="flex justify-start w-full pl-1">
                         <span className="block">option</span>
                     </div>
@@ -464,9 +462,7 @@ export const Keypad = () => {
                     </div>
                 </KBtn>
                 <KBtn className="" childrenClassName="h-full justify-between py-[4px]">
-                    <div className="flex justify-start w-full pl-1">
-                        <OptionKey className="h-[6px] w-[6px]" />
-                    </div>
+                    <span></span>
                     <div className="flex justify-start w-full pl-1">
                         <span className="block">option</span>
                     </div>
@@ -545,50 +541,5 @@ export const SpeakerGrid = () => {
                     "radial-gradient(circle, #08080A 0.5px, transparent 0.5px)",
                 backgroundSize: "3px 3px",
             }}></div>)
-    );
-};
-
-export const OptionKey = ({
-    className
-}) => {
-    return (
-        (<svg
-            fill="none"
-            version="1.1"
-            id="icon"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 32 32"
-            className={className}>
-            <rect stroke="currentColor" strokeWidth={2} x="18" y="5" width="10" height="2" />
-            <polygon
-                stroke="currentColor"
-                strokeWidth={2}
-                points="10.6,5 4,5 4,7 9.4,7 18.4,27 28,27 28,25 19.6,25 " />
-            <rect
-                id="_Transparent_Rectangle_"
-                className="st0"
-                width="32"
-                height="32"
-                stroke="none" />
-        </svg>)
-    );
-};
-
-const AceternityLogo = () => {
-    return (
-        (<svg
-            width="66"
-            height="65"
-            viewBox="0 0 66 65"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-3 w-3 text-white">
-            <path
-                d="M8 8.05571C8 8.05571 54.9009 18.1782 57.8687 30.062C60.8365 41.9458 9.05432 57.4696 9.05432 57.4696"
-                stroke="currentColor"
-                strokeWidth="15"
-                strokeMiterlimit="3.86874"
-                strokeLinecap="round" />
-        </svg>)
     );
 };

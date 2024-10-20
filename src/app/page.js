@@ -2,7 +2,7 @@ import Image from "next/image";
 import Banner from "./components/Home/Banner";
 import Services from "./components/Home/Services";
 import { BackgroundBeams } from "./components/Home/BackgroundBeams";
-import { MacbookScroll } from "./components/Home/MackbookScroll";
+import { MacbookScroll } from "./components/Framer/MackbookScroll";
 
 export default function Home() {
   return (
