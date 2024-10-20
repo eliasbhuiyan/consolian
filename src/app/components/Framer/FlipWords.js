@@ -2,6 +2,7 @@
 import React, { useCallback, useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "@/app/lib/utils";
+import { IconPlus } from "@tabler/icons-react";
 
 export const FlipWords = ({
     words,
@@ -56,6 +57,10 @@ export const FlipWords = ({
                     className
                 )}
                 key={currentWord}>
+                     <Icon className="absolute h-6 w-6 -top-3 -left-3 text-white" />
+                     <Icon className="absolute h-6 w-6 -bottom-3 -left-3 text-white" />
+                     <Icon className="absolute h-6 w-6 -top-3 -right-3 text-white" />
+                     <Icon className="absolute h-6 w-6 -bottom-3 -right-3 text-white" />
                 {currentWord.split(" ").map((word, wordIndex) => (
                     <motion.span
                         key={word + wordIndex}
@@ -86,3 +91,9 @@ export const FlipWords = ({
         </AnimatePresence>)
     );
 };
+
+function Icon({ className,  }) {
+    return (
+        <IconPlus className={className} />
+    );
+  }
