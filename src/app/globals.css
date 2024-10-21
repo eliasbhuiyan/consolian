@@ -63,7 +63,6 @@ body {
 
   /* Hero Slider */
   .slideparent{
-  
     -webkit-mask: linear-gradient(90deg,#0000,#000 10% 90%,#0000);
   }
   .sliderdemo, .sliderdemo2 {
