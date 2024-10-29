@@ -4,6 +4,7 @@ import Services from "./components/Home/Services";
 import { BackgroundBeams } from "./components/Home/BackgroundBeams";
 import { MacbookScroll } from "./components/Framer/MackbookScroll";
 import ProductParallax from "./components/Home/ProductParallax";
+import Skills from "./components/Home/Skills";
 export default function Home() {
   return (
     <>
@@ -12,6 +13,7 @@ export default function Home() {
       {/* <BackgroundBeams /> */}
       <Services />
       <ProductParallax />
+      <Skills />
     </>
   );
 }
