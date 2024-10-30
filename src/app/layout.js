@@ -6,6 +6,7 @@ import SmoothScrolling from "./lib/SmoothScroll";
 
 
 export const metadata = {
+  favicon: '/favicon.png',
   title: "Consolian | Software Agency by Elias Bhuiyan",
   description: "Experienced MERN Stack Developer specializing in Website Design, Web & App Development, UI/UX, SEO Optimization, and Website Maintenance. Explore my portfolio for innovative digital solutions.",
   keywords: "MERN Stack Developer, Website Design, Web Development, App Development, UI/UX Design, SEO Optimization, Website Maintenance, Consolian, Elias Bhuiyan",
