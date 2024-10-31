@@ -5,6 +5,7 @@ import { MacbookScroll } from "./components/Framer/MackbookScroll";
 import ProductParallax from "./components/Home/ProductParallax";
 import Skills from "./components/Home/Skills";
 import { Portfolio } from "./components/Home/Portfolio";
+import Testimonial from "./components/Home/Testimonial";
 export default function Home() {
   return (
     <>
@@ -15,6 +16,7 @@ export default function Home() {
       <ProductParallax />
       <Skills />
       <Portfolio />
+      <Testimonial />
     </>
   );
 } 

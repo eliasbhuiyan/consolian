@@ -1,6 +1,8 @@
 "use client";
 import Image from "next/image";
 import { PortfolioTabs } from "../Framer/PortfolioTabs";
+import Link from "next/link";
+import { IoOpenOutline } from "react-icons/io5";
 
 export function Portfolio() {
     const tabs = [
@@ -10,7 +12,7 @@ export function Portfolio() {
             content: (
                 <div
                     className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-                    <p>Agency Websites</p>
+                    <p>Agency Website</p>
                     <Content />
                 </div>
             ),
@@ -100,30 +102,39 @@ const Content = () => {
         <div className="grid grid-cols-3 gap-5 h-full">
             <div className="h-[20vh] rounded-xl overflow-hidden relative group">
                 <Image src="/apper.png" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
+                <Link href="/" target="_blank" className="absolute top-0 left-0 w-full h-full z-10 bg-[rgba(0,0,0,0.3)] text-lg flex justify-center items-center gap-2 scale-0 group-hover:scale-100 transition-all">Agency Website <IoOpenOutline /></Link>
             </div>
             <div className="h-[20vh] rounded-xl overflow-hidden relative group">
                 <Image src="/avada.png" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
+                <Link href="/" target="_blank" className="absolute top-0 left-0 w-full h-full z-10 bg-[rgba(0,0,0,0.3)] text-lg flex justify-center items-center gap-2 scale-0 group-hover:scale-100 transition-all">Agency Website <IoOpenOutline /></Link>
             </div>
             <div className="h-[20vh] rounded-xl overflow-hidden relative group">
                 <Image src="/btls.png" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
+                <Link href="/" target="_blank" className="absolute top-0 left-0 w-full h-full z-10 bg-[rgba(0,0,0,0.3)] text-lg flex justify-center items-center gap-2 scale-0 group-hover:scale-100 transition-all">Agency Website <IoOpenOutline /></Link>
             </div>
             <div className="h-[20vh] rounded-xl overflow-hidden relative group">
                 <Image src="/digital.png" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
+                <Link href="/" target="_blank" className="absolute top-0 left-0 w-full h-full z-10 bg-[rgba(0,0,0,0.3)] text-lg flex justify-center items-center gap-2 scale-0 group-hover:scale-100 transition-all">Agency Website <IoOpenOutline /></Link>
             </div>
             <div className="h-[20vh] rounded-xl overflow-hidden relative group">
                 <Image src="/gym.png" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
+                <Link href="/" target="_blank" className="absolute top-0 left-0 w-full h-full z-10 bg-[rgba(0,0,0,0.3)] text-lg flex justify-center items-center gap-2 scale-0 group-hover:scale-100 transition-all">Agency Website <IoOpenOutline /></Link>
             </div>
             <div className="h-[20vh] rounded-xl overflow-hidden relative group">
                 <Image src="/hinta.png" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
+                <Link href="/" target="_blank" className="absolute top-0 left-0 w-full h-full z-10 bg-[rgba(0,0,0,0.3)] text-lg flex justify-center items-center gap-2 scale-0 group-hover:scale-100 transition-all">Agency Website <IoOpenOutline /></Link>
             </div>
             <div className="h-[20vh] rounded-xl overflow-hidden relative group">
                 <Image src="/hokah.png" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
+                <Link href="/" target="_blank" className="absolute top-0 left-0 w-full h-full z-10 bg-[rgba(0,0,0,0.3)] text-lg flex justify-center items-center gap-2 scale-0 group-hover:scale-100 transition-all">Agency Website <IoOpenOutline /></Link>
             </div>
             <div className="h-[20vh] rounded-xl overflow-hidden relative group">
                 <Image src="/Walmart.png" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
+                <Link href="/" target="_blank" className="absolute top-0 left-0 w-full h-full z-10 bg-[rgba(0,0,0,0.3)] text-lg flex justify-center items-center gap-2 scale-0 group-hover:scale-100 transition-all">Agency Website <IoOpenOutline /></Link>
             </div>
             <div className="h-[20vh] rounded-xl overflow-hidden relative group">
                 <Image src="/Walmart2.png" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
+                <Link href="/" target="_blank" className="absolute top-0 left-0 w-full h-full z-10 bg-[rgba(0,0,0,0.3)] text-lg flex justify-center items-center gap-2 scale-0 group-hover:scale-100 transition-all">Agency Website <IoOpenOutline /></Link>
             </div>
         </div>
     );
