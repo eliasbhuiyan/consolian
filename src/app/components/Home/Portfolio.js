@@ -11,7 +11,7 @@ export function Portfolio() {
                 <div
                     className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
                     <p>Agency Websites</p>
-                    <DummyContent />
+                    <Content />
                 </div>
             ),
         },
@@ -22,7 +22,7 @@ export function Portfolio() {
                 <div
                     className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
                     <p>E-Commerce</p>
-                    <DummyContent />
+                    <Content />
                 </div>
             ),
         },
@@ -33,7 +33,7 @@ export function Portfolio() {
                 <div
                     className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
                     <p>Educational</p>
-                    <DummyContent />
+                    <Content />
                 </div>
             ),
         },
@@ -44,7 +44,7 @@ export function Portfolio() {
                 <div
                     className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
                     <p>Dashbord</p>
-                    <DummyContent />
+                    <Content />
                 </div>
             ),
         },
@@ -55,7 +55,7 @@ export function Portfolio() {
                 <div
                     className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
                     <p>Business</p>
-                    <DummyContent />
+                    <Content />
                 </div>
             ),
         },
@@ -66,27 +66,65 @@ export function Portfolio() {
                 <div
                     className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
                     <p>Social Media</p>
-                    <DummyContent />
+                    <Content />
+                </div>
+            ),
+        },
+        {
+            title: "NPM Package",
+            value: "npm-package",
+            content: (
+                <div
+                    className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+                    <p>NPM Package</p>
+                    <Content />
                 </div>
             ),
         },
     ];
 
     return (
-        (<div
-            className="h-[20rem] md:h-[40rem] [perspective:1000px] relative b flex flex-col max-w-5xl mx-auto w-full  items-start justify-start my-40">
-            <PortfolioTabs tabs={tabs} />
-        </div>)
+        (<section className="py-24">
+            <div className="container">
+                <div
+                    className="[perspective:1000px] relative b flex flex-col items-start justify-start">
+                    <PortfolioTabs tabs={tabs} />
+                </div>
+            </div>
+        </section>)
     );
 }
 
-const DummyContent = () => {
+const Content = () => {
     return (
-        (<Image
-            src="/macbookScreen.png"
-            alt="dummy image"
-            width="1000"
-            height="1000"
-            className="object-cover object-left-top h-[60%]  md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto" />)
+        <div className="grid grid-cols-3 gap-5 h-full">
+            <div className="h-[20vh] rounded-xl overflow-hidden relative group">
+                <Image src="/apper.png" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
+            </div>
+            <div className="h-[20vh] rounded-xl overflow-hidden relative group">
+                <Image src="/avada.png" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
+            </div>
+            <div className="h-[20vh] rounded-xl overflow-hidden relative group">
+                <Image src="/btls.png" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
+            </div>
+            <div className="h-[20vh] rounded-xl overflow-hidden relative group">
+                <Image src="/digital.png" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
+            </div>
+            <div className="h-[20vh] rounded-xl overflow-hidden relative group">
+                <Image src="/gym.png" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
+            </div>
+            <div className="h-[20vh] rounded-xl overflow-hidden relative group">
+                <Image src="/hinta.png" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
+            </div>
+            <div className="h-[20vh] rounded-xl overflow-hidden relative group">
+                <Image src="/hokah.png" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
+            </div>
+            <div className="h-[20vh] rounded-xl overflow-hidden relative group">
+                <Image src="/Walmart.png" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
+            </div>
+            <div className="h-[20vh] rounded-xl overflow-hidden relative group">
+                <Image src="/Walmart2.png" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
+            </div>
+        </div>
     );
 };
