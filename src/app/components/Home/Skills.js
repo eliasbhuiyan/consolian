@@ -185,29 +185,29 @@ const Skills = () => {
                         <SpeedTextCover className="text-2xl font-bold" main="bg-basic">Back End Technologies</SpeedTextCover>
                     </div>
                     <div className='flex justify-center gap-5 mt-10'>
-                        <div className='w-fit flex flex-col items-center bg-[#5CAC47] p-4 rounded-full border-8 border-white shadow-[-0.5rem_0.5rem_1rem_rgba(0,_0,_0,_0.45),inset_-0.25rem_0.25rem_0.5rem_rgba(0,_0,_0,_0.45)] relative before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2  before:w-[155%] before:h-20 before:border-[#5CAC47] before:border-[20px] before:border-t-0 before:rounded-b-full before:-z-10 z-10 '>
+                        <div className='w-fit flex flex-col items-center bg-[#5CAC47] p-4 rounded-full border-8 border-white shadow-[-0.5rem_0.5rem_1rem_rgba(0,_0,_0,_0.45),inset_-0.25rem_0.25rem_0.5rem_rgba(0,_0,_0,_0.45)] relative before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2  before:w-[155%] before:h-20 before:border-[#5CAC47] before:border-[20px] before:border-t-0 before:rounded-b-full before:-z-10 z-10'>
                             <FaNodeJs className='text-5xl text-white' />
                             <h3 className='text-white font-semibold'>NODE.JS</h3>
                         </div>
-                        <div className='w-fit flex flex-col items-center bg-[#828282] p-4 rounded-full border-8 border-white shadow-[-0.5rem_0.5rem_1rem_rgba(0,_0,_0,_0.45),inset_-0.25rem_0.25rem_0.5rem_rgba(0,_0,_0,_0.45)] relative before:absolute before:bottom-1/2 before:left-1/2 before:-translate-x-1/2  before:w-[155%] before:h-20 before:border-[#828282] before:border-[20px] before:border-b-0 before:rounded-t-full before:-z-10 z-10 '>
+                        <div className='w-fit flex flex-col items-center bg-[#828282] p-4 rounded-full border-8 border-white shadow-[-0.5rem_0.5rem_1rem_rgba(0,_0,_0,_0.45),inset_-0.25rem_0.25rem_0.5rem_rgba(0,_0,_0,_0.45)] relative before:absolute before:bottom-1/2 before:left-1/2 before:-translate-x-1/2  before:w-[151.5%] before:h-20 before:border-[#828282] before:border-[20px] before:border-b-0 before:rounded-t-full before:-z-10 z-10'>
                             <SiExpress className='text-5xl text-white' />
                             <h3 className='text-white font-semibold'>EXPRESS</h3>
                         </div>
-                        <div className='w-fit flex flex-col items-center bg-[#0595D4] p-4 rounded-full border-8 border-white shadow-[-0.5rem_0.5rem_1rem_rgba(0,_0,_0,_0.45),inset_-0.25rem_0.25rem_0.5rem_rgba(0,_0,_0,_0.45)] relative before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2  before:w-[148%] before:h-20 before:border-[#0595D4] before:border-[20px] before:border-t-0 before:rounded-b-full before:-z-10 z-10 '>
+                        <div className='w-fit flex flex-col items-center bg-[#0595D4] p-4 rounded-full border-8 border-white shadow-[-0.5rem_0.5rem_1rem_rgba(0,_0,_0,_0.45),inset_-0.25rem_0.25rem_0.5rem_rgba(0,_0,_0,_0.45)] relative before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2  before:w-[146%] before:h-20 before:border-[#0595D4] before:border-[20px] before:border-t-0 before:rounded-b-full before:-z-10 z-10'>
                             <AiOutlineCloudServer className='text-5xl text-white' />
                             <h3 className='text-white font-medium'>RESTful API</h3>
                         </div>
-                        <div className='w-fit flex flex-col items-center bg-[linear-gradient(to_right,_#F50057,_#D500F9,_#546E7A)] py-4 px-6 rounded-full border-8 border-white shadow-[-0.5rem_0.5rem_1rem_rgba(0,_0,_0,_0.45),inset_-0.25rem_0.25rem_0.5rem_rgba(0,_0,_0,_0.45)] relative before:absolute before:bottom-1/2 before:left-1/2 before:-translate-x-1/2 before:w-[154%] before:h-20 before:border-[#D500F9] before:border-[20px] before:border-b-0 before:rounded-t-full before:-z-10 z-10 '>
+                        <div className='w-fit flex flex-col items-center bg-[linear-gradient(to_right,_#F50057,_#D500F9,_#546E7A)] py-4 px-6 rounded-full border-8 border-white shadow-[-0.5rem_0.5rem_1rem_rgba(0,_0,_0,_0.45),inset_-0.25rem_0.25rem_0.5rem_rgba(0,_0,_0,_0.45)] relative before:absolute before:bottom-1/2 before:left-1/2 before:-translate-x-1/2 before:w-[147%] before:h-20 before:border-[#D500F9] before:border-[20px] before:border-b-0 before:rounded-t-full before:-z-10 z-10 '>
                             <SiJsonwebtokens className='text-4xl text-white' />
                             <h3 className='text-white font-semibold mt-3'>JWT Auth</h3>
                         </div>
                     </div>
                     <div className='flex justify-center gap-5 mt-20'>
-                        <div className='w-fit flex flex-col items-center bg-[#F6009C] p-4 rounded-full border-8 border-white shadow-[-0.5rem_0.5rem_1rem_rgba(0,_0,_0,_0.45),inset_-0.25rem_0.25rem_0.5rem_rgba(0,_0,_0,_0.45)] relative before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2  before:w-[152%] before:h-20 before:border-[#F6009C] before:border-[20px] before:border-t-0 before:rounded-b-full before:-z-10 z-10 '>
+                        <div className='w-fit flex flex-col items-center bg-[#F6009C] p-4 rounded-full border-8 border-white shadow-[-0.5rem_0.5rem_1rem_rgba(0,_0,_0,_0.45),inset_-0.25rem_0.25rem_0.5rem_rgba(0,_0,_0,_0.45)] relative before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2  before:w-[151%] before:h-20 before:border-[#F6009C] before:border-[20px] before:border-t-0 before:rounded-b-full before:-z-10 z-10 '>
                             <SiGraphql className='text-5xl text-white' />
                             <h3 className='text-white font-semibold'>GRAPHQL</h3>
                         </div>
-                        <div className='w-fit flex flex-col items-center bg-[#010101] p-4 rounded-full border-8 border-white shadow-[-0.5rem_0.5rem_1rem_rgba(0,_0,_0,_0.45),inset_-0.25rem_0.25rem_0.5rem_rgba(0,_0,_0,_0.45)] relative before:absolute before:bottom-1/2 before:left-1/2 before:-translate-x-1/2  before:w-[155%] before:h-20 before:border-[#010101] before:border-[20px] before:border-b-0 before:rounded-t-full before:-z-10 z-10 '>
+                        <div className='w-fit flex flex-col items-center bg-[#010101] p-4 rounded-full border-8 border-white shadow-[-0.5rem_0.5rem_1rem_rgba(0,_0,_0,_0.45),inset_-0.25rem_0.25rem_0.5rem_rgba(0,_0,_0,_0.45)] relative before:absolute before:bottom-1/2 before:left-1/2 before:-translate-x-1/2  before:w-[147%] before:h-20 before:border-[#010101] before:border-[20px] before:border-b-0 before:rounded-t-full before:-z-10 z-10 '>
                             <SiSocketdotio className='text-5xl text-white' />
                             <h3 className='text-white font-medium'>SOCKET.IO</h3>
                         </div>
