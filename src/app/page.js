@@ -6,6 +6,8 @@ import ProductParallax from "./components/Home/ProductParallax";
 import Skills from "./components/Home/Skills";
 import { Portfolio } from "./components/Home/Portfolio";
 import Testimonial from "./components/Home/Testimonial";
+import FAQ from "./components/Home/FAQ";
+import About from "./components/Home/About";
 export default function Home() {
   return (
     <>
@@ -17,6 +19,8 @@ export default function Home() {
       <Skills />
       <Portfolio />
       <Testimonial />
+      <About />
+      <FAQ />
     </>
   );
 } 
