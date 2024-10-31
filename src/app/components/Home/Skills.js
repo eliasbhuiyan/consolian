@@ -1,14 +1,12 @@
 import { FaBootstrap, FaNodeJs, FaHtml5, FaCss3Alt, FaReact, FaJsSquare, FaSass, FaWordpressSimple } from 'react-icons/fa'
 import { DiMaterializecss, } from 'react-icons/di'
-import { SiSemanticuireact, SiExpress, SiStrapi, SiMongoose, SiMysql, SiSocketdotio, SiMongodb, SiReactrouter, SiJsonwebtokens, SiGraphql, SiFramer } from 'react-icons/si'
+import { SiSemanticuireact, SiExpress, SiStrapi, SiMongoose, SiSocketdotio, SiMongodb, SiReactrouter, SiJsonwebtokens, SiGraphql, SiFramer } from 'react-icons/si'
 import { RiTailwindCssFill } from "react-icons/ri";
 import { AiOutlineCloudServer } from "react-icons/ai";
 import { IoLogoFirebase } from "react-icons/io5";
 import { FaWebflow } from "react-icons/fa6";
-import { FiFramer } from "react-icons/fi";
 import { TbBrandFramerMotion, TbBrandMysql, TbBrandNextjs, TbBrandRedux } from 'react-icons/tb'
 import { GrGatsbyjs } from 'react-icons/gr'
-import { PiGraphLight } from 'react-icons/pi'
 import { SparklesCore } from '../Framer/Sparkles';
 import { SpeedTextCover } from '../Framer/SpeedTextCover';
 const Skills = () => {
