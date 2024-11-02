@@ -7,6 +7,7 @@ import { Portfolio } from "./components/Home/Portfolio";
 import Testimonial from "./components/Home/Testimonial";
 import FAQ from "./components/Home/FAQ";
 import About from "./components/Home/About";
+import Footer from "./components/Home/Footer";
 export default function Home() {
   return (
     <>
@@ -19,6 +20,7 @@ export default function Home() {
       <Testimonial />
       <About />
       <FAQ />
+      <Footer />
     </>
   );
 } 
