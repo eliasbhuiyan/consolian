@@ -11,7 +11,7 @@ import { SparklesCore } from '../Framer/Sparkles';
 import { SpeedTextCover } from '../Framer/SpeedTextCover';
 const Skills = () => {
     return (
-        <section className="pt-28 bg-basic" id='about'>
+        <section id="skills" className="pt-28 bg-basic">
             <div className="container">
                 {/* Header */}
                 <div className="h-96 w-full flex flex-col items-center justify-center overflow-hidden rounded-md">

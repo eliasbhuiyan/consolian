@@ -5,7 +5,7 @@ import { TextRevealCard } from '../Framer/TextReveal'
 
 const About = () => {
     return (
-        <section className='py-20 bg-primary'>
+        <section id='about' className='py-20 bg-primary'>
             <div className="container">
                 <div className="flex items-center gap-10">
                     <MovingCard containerClassName="w-1/2">

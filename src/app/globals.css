@@ -6,7 +6,9 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 code {
   background-color: rgb(0, 0, 0);
 }

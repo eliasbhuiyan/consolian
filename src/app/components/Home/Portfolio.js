@@ -86,7 +86,7 @@ export function Portfolio() {
     ];
 
     return (
-        (<section className="py-24">
+        (<section id="portfolio" className="py-24">
             <div className="container">
                 <div
                     className="[perspective:1000px] relative b flex flex-col items-start justify-start">
