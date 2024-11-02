@@ -30,8 +30,8 @@ export default function RootLayout({ children }) {
         className={`antialiased cursor shape`}
       >
         <SideNav />
+        <ContactPopup />
         <SmoothScrolling>{children}</SmoothScrolling>
-        <ContactPopup/>
       </body>
     </html>
   );
