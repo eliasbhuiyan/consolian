@@ -30,7 +30,7 @@ const Testimonial = () => {
                     <SplideSlide>
                         <div className="review">
                             <div className="icon overflow-hidden">
-                                <Image src="/riad_ahmed.jpg" width={200} height={200} alt='profile' />
+                                <Image src="" width={200} height={200} alt='profile' />
                             </div>
                             <div className="content">
                                 <h3 className='text-xl text-primary font-bold font-primary'>Elias Bhuiyan</h3>
@@ -49,7 +49,7 @@ const Testimonial = () => {
                     <SplideSlide>
                         <div className="review">
                             <div className="icon overflow-hidden">
-                                <Image src="/rony.jpg" width={200} height={200} alt='profile' />
+                                <Image src="" width={200} height={200} alt='profile' />
                             </div>
                             <div className="content">
                                 <h3 className='text-xl text-primary font-bold font-primary'>Elias Bhuiyan</h3>
@@ -68,7 +68,7 @@ const Testimonial = () => {
                     <SplideSlide>
                         <div className="review">
                             <div className="icon overflow-hidden">
-                                <Image src="/riad_ahmed.jpg" width={200} height={200} alt='profile' />
+                                <Image src="" width={200} height={200} alt='profile' />
                             </div>
                             <div className="content">
                                 <h3 className='text-xl text-primary font-bold font-primary'>Elias Bhuiyan</h3>

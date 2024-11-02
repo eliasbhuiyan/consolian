@@ -1,4 +1,3 @@
-"use client";
 import {
     IconHeartHandshake,
     IconHome,
@@ -6,21 +5,10 @@ import {
     IconTerminal2,
 } from "@tabler/icons-react";
 import { PiHandGrabbingBold } from "react-icons/pi";
-import { useLenis } from '@studio-freight/react-lenis';
 import Link from "next/link";
 
 export function SideNav() {
-    const lenis = useLenis();
-    // const handleScroll = (id) => {
-    //     const section = document.getElementById(id);
-    //     if (section) {
-    //         lenis.scrollTo(section, {
-    //             offset: 0,
-    //             duration: 1.5,  // Adjust scroll duration
-    //             easing: (t) => t * (2 - t),  // Optional easing function
-    //         });
-    //     }
-    // };
+
 
     return (
         (<div className="w-20 max-w-20 h-fit bg-gradient-to-b from-white to-transparent border border-opacity-10 shadow-[0_25px_25px_rgba(0,0,0,0.05)] py-6 rounded-xl flex items-center justify-center fixed right-2 top-1/2 -translate-y-1/2 z-50 transition-all">
