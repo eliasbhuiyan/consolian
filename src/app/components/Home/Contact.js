@@ -18,7 +18,6 @@ const Contact = () => {
     };
     const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log(formData);
         try {
             const response = await fetch('https://formspree.io/f/mrgwwzbg', {
                 method: 'POST',
@@ -62,37 +61,37 @@ const Contact = () => {
                     <h3 className="text-5xl font-bold mb-5 text-slate-600">It’s time to build something exciting!</h3>
                     <p className='text-xl text-primary'>I&apos;d love to hear from you and explore how we can collaborate on exciting projects or discuss any questions you might have. Whether you&apos;re an aspiring client looking to bring your digital dreams to life or a fellow developer interested in sharing knowledge, my virtual door is always open. Please feel free to reach out me.Let&apos;s engage in a conversation about your ideas and how we can turn them into digital realities. I&apos;m eager to connect and explore the endless possibilities of the web together.
                     </p>
-                    <div class="social-login-icons">
-                        <div class="socialcontainer">
-                            <div class="eb-icon social-icon-1-1">
+                    <div className="social-login-icons">
+                        <div className="socialcontainer">
+                            <div className="eb-icon social-icon-1-1">
                                 <FaGithub className='text-4xl cursor-pointer' />
                             </div>
-                            <div class="social-icon-1">
-                                <Link href="/" target='_blank'><FaGithub className='text-4xl' /></Link>
+                            <div className="social-icon-1">
+                                <Link href="https://github.com/eliasbhuiyan" target='_blank'><FaGithub className='text-4xl' /></Link>
                             </div>
                         </div>
-                        <div class="socialcontainer">
-                            <div class="eb-icon social-icon-2-2">
+                        <div className="socialcontainer">
+                            <div className="eb-icon social-icon-2-2">
                                 <RiWhatsappFill className='text-5xl text-[#25D366] cursor-pointer' />
                             </div>
-                            <div class="social-icon-2">
-                                <Link href="/" target='_blank'><RiWhatsappFill className='text-4xl' /></Link>
+                            <div className="social-icon-2">
+                                <Link href="https://wa.me/+8801999359733" target='_blank'><RiWhatsappFill className='text-4xl' /></Link>
                             </div>
                         </div>
-                        <div class="socialcontainer">
-                            <div class="eb-icon social-icon-3-3">
+                        <div className="socialcontainer">
+                            <div className="eb-icon social-icon-3-3">
                                 <FaLinkedin className='text-4xl text-[#0077B5] cursor-pointer' />
                             </div>
-                            <div class="social-icon-3">
-                                <Link href="/" target='_blank'><FaLinkedin className='text-4xl' /></Link>
+                            <div className="social-icon-3">
+                                <Link href="https://www.linkedin.com/in/elias-bhuiyan/" target='_blank'><FaLinkedin className='text-4xl' /></Link>
                             </div>
                         </div>
-                        <div class="socialcontainer">
-                            <div class="eb-icon social-icon-4-4">
+                        <div className="socialcontainer">
+                            <div className="eb-icon social-icon-4-4">
                                 <FaFacebook className='text-4xl text-[#1877F2] cursor-pointer' />
                             </div>
-                            <div class="social-icon-4">
-                                <Link href="/" target='_blank'><FaFacebook className='text-4xl' /></Link>
+                            <div className="social-icon-4">
+                                <Link href="https://www.facebook.com/eliasbhuiyann" target='_blank'><FaFacebook className='text-4xl' /></Link>
                             </div>
                         </div>
                     </div>
