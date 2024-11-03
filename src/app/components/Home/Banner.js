@@ -7,7 +7,7 @@ import { Compare } from '../Framer/Compare'
 const Banner = () => {
     const words = ["Better", "Cute", "Beautiful", "Modern"];
     return (
-        <header id='home' className="relative z-10 h-screen overflow-hidden flex items-center justify-center bg-[url('/bg.jpg')] bg-no-repeat bg-cover bg-center" >
+        <header id='banner' className="relative z-10 h-screen overflow-hidden flex items-center justify-center bg-[url('/bg.jpg')] bg-no-repeat bg-cover bg-center" >
             <HeroBg />
             <div className='mx-20 z-20 border bg-heroBg shadow-[0px_0px_28px_5px_rgba(255,255,255,1)] px-10'>
                 <div className="pt-6 pb-4 flex justify-between border-b border-b-white">
