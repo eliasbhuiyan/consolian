@@ -3,7 +3,6 @@ import { Roboto } from 'next/font/google'
 import "./globals.css";
 import { SideNav } from "./components/Navbar/SideNav";
 import SmoothScrolling from "./lib/SmoothScroll";
-import ContactPopup from "./components/Home/ContactPopup";
 
 
 export const metadata = {
@@ -30,7 +29,6 @@ export default function RootLayout({ children }) {
         className={`antialiased cursor shape`}
       >
         <SideNav />
-        <ContactPopup />
         <SmoothScrolling>{children}</SmoothScrolling>
       </body>
     </html>
