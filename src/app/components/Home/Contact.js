@@ -35,7 +35,7 @@ const Contact = () => {
         }
     };
     return (
-        <section className="flex flex-col items-center justify-center p-10 bg-basic">
+        <section id='contact' className="flex flex-col items-center justify-center p-10 bg-basic">
             <h1 className="text-5xl font-bold mb-10 flex flex-col items-center gap-2 text-slate-700"><LuHeartHandshake /> <span>Get in touch</span></h1>
             <div className="container flex gap-10 items-center">
                 <form className="flex flex-col w-1/2" onSubmit={handleSubmit} method="POST">
