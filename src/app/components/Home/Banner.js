@@ -5,7 +5,7 @@ import { FlipWords } from '../Framer/FlipWords'
 import { Compare } from '../Framer/Compare'
 
 const Banner = () => {
-    const words = ["Better", "Eye Catching", "Beautiful", "Modern"];
+    const words = ["Better", "Beautiful", "Modern"];
     return (
         <header id='banner' className="relative z-10 py-10 md:py-20 lg:py-24 overflow-hidden flex items-center justify-center bg-[url('/bg.jpg')] bg-no-repeat bg-cover bg-center" >
             <HeroBg />
