@@ -18,7 +18,7 @@ export function SideNav() {
     };
 
     return (
-        (<div className="w-20 max-w-20 h-fit bg-gradient-to-b from-white to-transparent border border-opacity-10 shadow-[0_25px_25px_rgba(0,0,0,0.05)] py-6 rounded-xl flex flex-col items-center justify-center gap-2 fixed right-2 top-1/2 -translate-y-1/2 z-50 transition-all duration-200">
+        (<div className="w-full md:w-20 h-fit bg-gradient-to-b from-white to-transparent border border-opacity-10 shadow-[0_25px_25px_rgba(0,0,0,0.05)] py-2 md:py-6 md:rounded-xl flex flex-row md:flex-col items-center justify-center gap-2 fixed right-0 md:right-2 bottom-0 md:bottom-1/2 md:-translate-y-1/2 z-50 transition-all duration-200">
             <button
                 onClick={() => handleScroll('banner')}
                 className="text-gray-500 w-10 h-10 rounded-full bg-slate-200 flex items-center justify-center hover:w-20 hover:h-20 hover:mr-6 transition-all duration-200 group relative [&:hover+*]:w-16 [&:hover+*]:h-16"
