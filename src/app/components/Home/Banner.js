@@ -47,7 +47,7 @@ const Banner = () => {
                 </h1>
                 <div className='container flex flex-col md:flex-row items-center gap-6 py-10'>
                     <div className='w-full md:w-3/5 xl:w-1/2'>
-                        <h2 className='text-white py-2 lg:py-8 text-[25px] lg:text-3xl xl:text-6xl font-semibold lg:font-bold'>Create Exparience With Us, Make Your <FlipWords words={words} className={"border bg-[rgba(171,162,162,0.26)] text-green-200"} /> Website & Grow Your Business. <span className='text-gray-400 text-base lg:text-xl xl:text-2xl font-semibold tracking-normal'>I am a passionate MERN Stack developer, dedicated to creating web applications that are not only functional but also aesthetically pleasing. Explore my portfolio to see how I can bring your ideas to life.</span></h2>
+                        <h2 className='text-white text-[24px] lg:text-3xl xl:text-6xl font-semibold lg:font-bold md:!leading-[50px] lg:!leading-[80px] text-center md:text-start'>Create Exparience With Us, Make Your <FlipWords words={words} className={"border text-[20px] lg:text-3xl xl:text-4xl  bg-[rgba(171,162,162,0.26)] text-green-200"} /> Website & Grow Your Business.</h2>
                     </div>
                     <Compare />
                 </div>
