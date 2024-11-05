@@ -111,7 +111,6 @@ export const Lid = ({
     scaleY,
     rotate,
     translate,
-    src
 }) => {
     return (
         (<div className="relative [perspective:800px]">
