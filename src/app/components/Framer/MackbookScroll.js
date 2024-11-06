@@ -34,7 +34,7 @@ export const MacbookScroll = ({
     return (
         (<div
             ref={ref}
-            className="min-h-[200vh] relative bg-slate-950 w-full h-4/5 overflow-hidden flex flex-col items-center py-0 md:py-80 justify-start flex-shrink-0 [perspective:800px] transform">
+            className="min-h-[150vh] md:min-h-[200vh] relative bg-slate-950 w-full h-4/5 overflow-hidden flex flex-col items-center py-0 md:py-80 justify-start flex-shrink-0 [perspective:800px] transform">
             <div
                 className="absolute top-5 md:top-20 flex w-full flex-1 scale-y-50 md:scale-y-125 scale-x-50 md:scale-x-100 items-center justify-center isolate z-0 ">
                 <motion.div
@@ -119,20 +119,20 @@ export const MacbookScroll = ({
                 translate={translate} />
             {/* Base area */}
             <div
-                className="h-48 md:h-[22rem] w-full max-w-72 md:max-w-[32rem] bg-gray-200 dark:bg-[#272729] rounded-2xl overflow-hidden relative -z-10">
+                className="h-44 md:h-[22rem] w-full max-w-72 md:max-w-[32rem] bg-gray-200 dark:bg-[#272729] rounded-2xl overflow-hidden relative -z-10">
                 {/* above keyboard bar */}
-                <div className="h-10 w-full relative">
+                <div className="h-6 md:h-10 w-full relative">
                     <div className="absolute inset-x-0 mx-auto w-[80%] h-4 bg-[#050505]" />
                 </div>
                 <div className="flex relative">
-                    <div className="mx-auto w-[10%] overflow-hidden  h-full">
+                    <div className="mx-auto w-[10%] overflow-hidden h-full">
                         <SpeakerGrid />
                     </div>
                     <div className="mx-auto w-[80%] h-full">
                         {/* <Keypad /> */}
                         <Image src="/keybord.png" alt="keybord" width={400} height={400} layout="responsive" />
                     </div>
-                    <div className="mx-auto w-[10%] overflow-hidden  h-full">
+                    <div className="mx-auto w-[10%] overflow-hidden h-full">
                         <SpeakerGrid />
                     </div>
                 </div>
@@ -193,7 +193,7 @@ export const Lid = ({
 export const Trackpad = () => {
     return (
         (<div
-            className="w-[40%] mx-auto h-32  rounded-xl my-1"
+            className="w-[40%] mx-auto h-16 md:h-32  rounded-xl my-1"
             style={{
                 boxShadow: "0px 0px 1px 1px #00000020 inset",
             }}></div>)
@@ -203,7 +203,7 @@ export const Trackpad = () => {
 export const SpeakerGrid = () => {
     return (
         (<div
-            className="flex px-[0.5px] gap-[2px] mt-2 h-40"
+            className="flex px-[0.5px] gap-[2px] mt-2 h-20 md:h-40"
             style={{
                 backgroundImage:
                     "radial-gradient(circle, #08080A 0.5px, transparent 0.5px)",
