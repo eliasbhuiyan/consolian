@@ -124,7 +124,7 @@ const Services = () => {
         },
     ];
     return (
-        <section id="services" className="py-40 bg-heroBg">
+        <section id="services" className="md:py-40 bg-heroBg">
             <div className="container">
                 <div className="w-full">
                     <ServiceFrame data={data} />

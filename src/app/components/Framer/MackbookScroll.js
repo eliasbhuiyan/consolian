@@ -164,9 +164,9 @@ export const Lid = ({
                         boxShadow: "0px 2px 0px 2px var(--neutral-900) inset",
                     }}
                     className="absolute inset-0 bg-[#010101] rounded-lg flex items-center justify-center">
-                    <span className="text-white">
-                        Consolian
-                    </span>
+                    <p className="text-white font-semibold [text-shadow:4px_4px_2px_rgba(255,255,255,0.8)]">
+                        Elias Bhuiyan
+                    </p>
                 </div>
             </div>
             <motion.div

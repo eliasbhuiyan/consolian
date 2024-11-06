@@ -29,8 +29,8 @@ export const ServiceFrame = ({
         (<div
             className="w-full bg-black font-sans md:px-10"
             ref={containerRef}>
-            <div className="h-96 w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
-                <h2 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center text-white relative z-20">
+            <div className="pt-20 md:pt-0 md:h-96 w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
+                <h2 className="text-3xl md:text-7xl lg:text-9xl font-bold text-center text-white relative z-20">
                     Our Services
                 </h2>
                 <div className="w-full h-40 relative">
@@ -51,7 +51,7 @@ export const ServiceFrame = ({
                     />
 
                     {/* Radial Gradient to prevent sharp edges */}
-                    <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
+                    <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(160px_120px_at_top,transparent_20%,white)] md:[mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
                 </div>
             </div>
             <div ref={ref} className="relative max-w-7xl mx-auto pb-20">

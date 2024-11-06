@@ -37,7 +37,7 @@ export const ParallaxHeaderMask = ({
             }}
         >
             <motion.div
-                className="w-full h-full flex items-center justify-center text-6xl absolute bg-black  bg-[url('/grid.svg')]  text-white [mask-image:url(/mask.svg)] [mask-size:40px] [mask-repeat:no-repeat]"
+                className="w-full h-full flex items-center justify-center text-xl md:text-4xl font-bold absolute bg-black  bg-[url('/grid.svg')]  text-white [mask-image:url(/mask.svg)] [mask-size:40px] [mask-repeat:no-repeat]"
                 animate={{
                     maskPosition: `${mousePosition.x - maskSize / 2}px ${mousePosition.y - maskSize / 2
                         }px`,
@@ -55,7 +55,7 @@ export const ParallaxHeaderMask = ({
                     onMouseLeave={() => {
                         setIsHovered(false);
                     }}
-                    className="max-w-4xl mx-auto text-center text-white  text-4xl font-bold relative z-20">
+                    className="max-w-4xl mx-auto text-center text-white  text-xl md:text-4xl font-bold relative z-20">
                     {children}
                 </div>
             </motion.div>

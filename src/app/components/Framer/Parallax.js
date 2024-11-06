@@ -24,11 +24,11 @@ export const Parallax = ({
     const rotateX = useSpring(useTransform(scrollYProgress, [0, 0.2], [15, 0]), springConfig);
     const opacity = useSpring(useTransform(scrollYProgress, [0, 0.2], [0.2, 1]), springConfig);
     const rotateZ = useSpring(useTransform(scrollYProgress, [0, 0.2], [20, 0]), springConfig);
-    const translateY = useSpring(useTransform(scrollYProgress, [0, 0.2], [-700, 500]), springConfig);
+    const translateY = useSpring(useTransform(scrollYProgress, [0, 0.2], [-400, 150]), springConfig);
     return (
         (<div
             ref={ref}
-            className="h-[250vh] pt-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]">
+            className="h-[200vh] md:h-[250vh] pt-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]">
             <Header />
             <motion.div
                 style={{
@@ -36,19 +36,18 @@ export const Parallax = ({
                     rotateZ,
                     translateY,
                     opacity,
-                }}
-                className="">
-                <motion.div className="flex flex-row-reverse space-x-reverse space-x-20 mb-20">
+                }}>
+                <motion.div className="flex flex-row-reverse space-x-reverse space-x-10 md:space-x-20 mb-20">
                     {firstRow.map((product) => (
                         <ProductCard product={product} translate={translateX} key={product.title} />
                     ))}
                 </motion.div>
-                <motion.div className="flex flex-row  mb-20 space-x-20 ">
+                <motion.div className="flex flex-row  mb-20 space-x-10 md:space-x-20 ">
                     {secondRow.map((product) => (
                         <ProductCard product={product} translate={translateXReverse} key={product.title} />
                     ))}
                 </motion.div>
-                <motion.div className="flex flex-row-reverse space-x-reverse space-x-20">
+                <motion.div className="flex flex-row-reverse space-x-reverse space-x-10 md:space-x-20">
                     {thirdRow.map((product) => (
                         <ProductCard product={product} translate={translateX} key={product.title} />
                     ))}
@@ -60,10 +59,10 @@ export const Parallax = ({
 
 export const Header = () => {
     return (
-        (<div className="h-[50vh] w-full flex items-center justify-center  overflow-hidden z-40">
+        (<div className="h-[50vh] w-full flex items-center justify-center text-center text-xl md:text-4xl font-bold overflow-hidden z-40">
             <ParallaxHeaderMask
                 revealText={
-                    <p className="max-w-4xl mx-auto text-slate-800 text-center  text-4xl font-bold">
+                    <p className="max-w-4xl mx-auto text-slate-800">
                         Explore our top-notch services that prioritize innovation, quality, and customer satisfaction. From web development to mobile app solutions.
                     </p>
                 }
@@ -88,15 +87,15 @@ export const ProductCard = ({
                 y: -20,
             }}
             key={product.title}
-            className="group/product h-96 w-[30rem] relative flex-shrink-0">
-            <Link href={product.link} className="block group-hover/product:shadow-2xl ">
+            className="group/product h-40 w-40 md:h-96 md:w-[30rem] relative flex-shrink-0">
+            <div className="block group-hover/product:shadow-2xl">
                 <Image
                     src={product.thumbnail}
                     height="600"
                     width="600"
                     className="object-cover object-left-top absolute h-full w-full inset-0"
                     alt={product.title} />
-            </Link>
+            </div>
             <div
                 className="absolute inset-0 h-full w-full opacity-0 group-hover/product:opacity-80 bg-black pointer-events-none"></div>
             <h2
