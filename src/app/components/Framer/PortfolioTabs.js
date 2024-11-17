@@ -26,7 +26,7 @@ export const PortfolioTabs = ({
     return (<>
         <div
             className={cn(
-                "flex flex-row items-center justify-start [perspective:1000px] relative overflow-auto sm:overflow-visible no-visible-scrollbar max-w-full w-full",
+                "flex flex-wrap items-center justify-center [perspective:1000px] relative overflow-auto sm:overflow-visible no-visible-scrollbar max-w-full w-full",
                 containerClassName
             )}>
             {propTabs.map((tab, idx) => (
@@ -37,7 +37,7 @@ export const PortfolioTabs = ({
                     }}
                     onMouseEnter={() => setHovering(true)}
                     onMouseLeave={() => setHovering(false)}
-                    className={cn("relative px-4 py-2 rounded-full", tabClassName)}
+                    className={cn("relative px-4 py-1 md:py-2 rounded-full text-sm md:text-base", tabClassName)}
                     style={{
                         transformStyle: "preserve-3d",
                     }}>
@@ -62,7 +62,7 @@ export const PortfolioTabs = ({
             active={active}
             key={active.value}
             hovering={hovering}
-            className={cn("mt-10", contentClassName)} />
+            className={cn(contentClassName)} />
     </>);
 };
 
@@ -75,9 +75,9 @@ export const FadeInDiv = ({
         return tab.value === tabs[0].value;
     };
     return (
-        (<div className="relative w-full h-[80vh]">
+        (<div className="relative w-full h-[80vh] overflow-y-auto mt-10">
             {tabs.map((tab, idx) => (
-                <motion.div
+                <motion.div 
                     key={tab.value}
                     layoutId={tab.value}
                     style={{

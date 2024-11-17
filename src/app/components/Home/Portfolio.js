@@ -11,7 +11,7 @@ export function Portfolio() {
             value: "Agency",
             content: (
                 <div
-                    className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+                    className="w-full relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
                     <p>Agency Website</p>
                     <Content />
                 </div>
@@ -89,7 +89,7 @@ export function Portfolio() {
         (<section id="portfolio" className="py-24">
             <div className="container">
                 <div
-                    className="[perspective:1000px] relative b flex flex-col items-start justify-start">
+                    className="relative b flex flex-col items-start justify-start">
                     <PortfolioTabs tabs={tabs} />
                 </div>
             </div>
@@ -99,7 +99,7 @@ export function Portfolio() {
 
 const Content = () => {
     return (
-        <div className="grid grid-cols-3 gap-5 h-full">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 h-full">
             <div className="h-[20vh] rounded-xl overflow-hidden relative group">
                 <Image src="/apper.png" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
                 <Link href="/" target="_blank" className="absolute top-0 left-0 w-full h-full z-10 bg-[rgba(0,0,0,0.3)] text-lg flex justify-center items-center gap-2 scale-0 group-hover:scale-100 transition-all">Agency Website <IoOpenOutline /></Link>
