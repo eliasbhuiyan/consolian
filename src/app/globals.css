@@ -10,7 +10,7 @@ html{
   scroll-behavior: smooth;
 }
 code {
-  background-color: rgb(0, 0, 0);
+  background-color: #d500f9
 }
 
 @layer components {
