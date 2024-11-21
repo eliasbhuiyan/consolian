@@ -1,54 +1,46 @@
-'use client'
-import { FaStar } from 'react-icons/fa'
-import { Splide, SplideSlide } from "@splidejs/react-splide";
-import "@splidejs/splide/dist/css/splide.min.css";
-import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
-import Image from 'next/image';
+import { TestimonialWrapper } from '../Framer/TestimonialWrapper';
 const Testimonial = () => {
+    const testimonials = [
+        {
+            quote:
+                "The attention to detail and innovative features have completely transformed our workflow. This is exactly what we've been looking for.",
+            name: "Sarah Chen",
+            designation: "Product Manager at TechFlow",
+            src: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        },
+        {
+            quote:
+                "Implementation was seamless and the results exceeded our expectations. The platform's flexibility is remarkable.",
+            name: "Michael Rodriguez",
+            designation: "CTO at InnovateSphere",
+            src: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        },
+        {
+            quote:
+                "This solution has significantly improved our team's productivity. The intuitive interface makes complex tasks simple.",
+            name: "Emily Watson",
+            designation: "Operations Director at CloudScale",
+            src: "https://images.unsplash.com/photo-1623582854588-d60de57fa33f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        },
+        {
+            quote:
+                "Outstanding support and robust features. It's rare to find a product that delivers on all its promises.",
+            name: "James Kim",
+            designation: "Engineering Lead at DataPro",
+            src: "https://images.unsplash.com/photo-1636041293178-808a6762ab39?q=80&w=3464&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        },
+        {
+            quote:
+                "The scalability and performance have been game-changing for our organization. Highly recommend to any growing business.",
+            name: "Lisa Thompson",
+            designation: "VP of Technology at FutureNet",
+            src: "https://images.unsplash.com/photo-1624561172888-ac93c696e10c?q=80&w=2592&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        },
+    ];
     return (
         <section className='py-20 md:py-28 bg-basic' id='testimonial'>
             <div className="container">
-                <Splide aria-label="My Favorite Images"
-                    options={{
-                        type: "loop",
-                        gap: "30px",
-                        drag: "free",
-                        pagination: false,
-                        focus: 'center',
-                        pauseOnHover: false,
-                        arrows: 'false',
-                        breakpoints: {
-                            639: {
-                                perPage: 1,
-                                gap: "10px",
-                            },
-                            1279: {
-                                perPage: 2,
-                                gap: "10px",
-                            }
-                        },
-                        perPage: 3,
-                    }} extensions={{ AutoScroll }}>
-                    <SplideSlide>
-                        <div className="review">
-                            <div className="icon overflow-hidden">
-                                <Image src="" width={200} height={200} alt='profile' />
-                            </div>
-                            <div className="content">
-                                <h3 className='text-sm md:text-xl text-primary font-bold font-primary'>Elias Bhuiyan</h3>
-                                <p className='text-sm md:text-base'>SEO Expert</p>
-                                <ul className='flex gap-1 justify-center text-sm md:text-base mb-2 text-orange-600'>
-                                    <li><FaStar /></li>
-                                    <li><FaStar /></li>
-                                    <li><FaStar /></li>
-                                    <li><FaStar /></li>
-                                    <li><FaStar /></li>
-                                </ul>
-                                <p className='text-xs md:text-sm'>GREAT work. Very fast and beautiful design. He got it right the first time which really made me happy. I&apos;m very impressed with the quality and caring Elias put into creating a landing page for my company. Thank you. I&apos;ll highly recommend you.</p>
-                            </div>
-                        </div>
-                    </SplideSlide>
-                </Splide>
+                <TestimonialWrapper testimonials={testimonials} />
             </div>
         </section>
     )

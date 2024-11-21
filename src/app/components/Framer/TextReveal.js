@@ -64,7 +64,7 @@ export const TextRevealCard = ({
                 "border border-white/[0.08] rounded-lg p-8 relative overflow-hidden",
                 className
             )}>
-            <div className="relative flex items-center overflow-hidden">
+            <div className="relative hidden md:flex items-center overflow-hidden">
                 <motion.div
                     animate={
                         isMouseOver

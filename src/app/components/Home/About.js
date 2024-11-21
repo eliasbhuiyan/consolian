@@ -5,18 +5,18 @@ import { TextRevealCard } from '../Framer/TextReveal'
 
 const About = () => {
     return (
-        <section id='about' className='py-20 bg-primary'>
+        <section id='about' className='py-10 md:py-20 bg-primary'>
             <div className="container">
-                <div className="flex items-center gap-10">
-                    <MovingCard containerClassName="w-1/2">
+                <div className="flex flex-col lg:flex-row items-center gap-10">
+                    <MovingCard containerClassName="w-2/5">
                         <Image src="/EliasBhuiyan.jpg" width={500} height={500} layout='responsive' className='w-full rounded-2xl' alt='elias bhuiyan' />
                     </MovingCard>
-                    <div className='w-1/2'>
+                    <div className='w-full lg:w-3/5'>
                         <TextRevealCard
                             text="You know the business"
                             revealText="I know how to develop"
                         >
-                            <p className='text-white text-lg'>Hello! this is Elias Bhuiyan, a dedicated MERN Stack Developer with a passion for crafting high-quality web and mobile applications that help businesses thrive in the digital space. With a strong foundation in <strong>JavaScript, MongoDB, Express, React, and Node.js</strong>, I specialize in building seamless, responsive, and dynamic digital solutions. My focus is on delivering exceptional user experiences, optimized performance, and scalable applications that meet and exceed client expectations.
+                            <p className='text-white text-xs md:text-lg'>Hello! this is Elias Bhuiyan, a dedicated MERN Stack Developer with a passion for crafting high-quality web and mobile applications that help businesses thrive in the digital space. With a strong foundation in <strong>JavaScript, MongoDB, Express, React, and Node.js</strong>, I specialize in building seamless, responsive, and dynamic digital solutions. My focus is on delivering exceptional user experiences, optimized performance, and scalable applications that meet and exceed client expectations.
                                 <span className='block pt-2'>
                                     Allowing me to approach projects with a well-rounded understanding of both technical functionality and visual appeal. My goal is to bring clients&apos; visions to life through clean code, thoughtful design, and a commitment to innovation.
                                 </span>
