@@ -47,7 +47,7 @@ const Banner = () => {
                 </h1>
                 <div className='container flex flex-col md:flex-row items-center gap-6 py-10'>
                     <div className='w-full md:w-3/5 xl:w-1/2'>
-                        <h2 className='text-white text-[24px] lg:text-3xl xl:text-6xl font-semibold lg:font-bold md:!leading-[50px] lg:!leading-[80px] text-center md:text-start'>Create Exparience With Us, Make Your <FlipWords words={words} className={"border text-[20px] lg:text-3xl xl:text-4xl  bg-[rgba(171,162,162,0.26)] text-green-200"} /> Website & Grow Your Business.</h2>
+                        <h2 className='text-white text-[24px] lg:text-3xl xl:text-6xl font-semibold lg:font-bold md:!leading-[50px] lg:!leading-[80px] text-center md:text-start'>Create Exparience With Us, Make Your <FlipWords words={words} className={"border text-[20px] lg:text-3xl xl:text-5xl  bg-[rgba(171,162,162,0.26)] text-green-200"} /> Website & Grow Your Business.</h2>
                     </div>
                     <Compare />
                 </div>
