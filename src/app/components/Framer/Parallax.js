@@ -2,7 +2,6 @@
 import React from "react";
 import { motion, useScroll, useTransform, useSpring } from "framer-motion";
 import Image from "next/image";
-import Link from "next/link";
 import { ParallaxHeaderMask } from "./ParallaxHeaderMask";
 
 export const Parallax = ({

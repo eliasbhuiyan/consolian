@@ -49,19 +49,19 @@ const Services = () => {
                         Offering custom mobile app development for both Android and iOS platforms. My apps are built to provide seamless performance, excellent UI/UX, and robust functionality.
                     </p>
                     <div className="mb-8">
-                        <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xl md:text-2xl">
+                        <div className="flex gap-2 items-center text-neutral-700 text-xl md:text-2xl">
                             ✅ Card grid component
                         </div>
-                        <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xl md:text-2xl">
+                        <div className="flex gap-2 items-center text-neutral-700 text-xl md:text-2xl">
                             ✅ Startup template Aceternity
                         </div>
-                        <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xl md:text-2xl">
+                        <div className="flex gap-2 items-center text-neutral-700 text-xl md:text-2xl">
                             ✅ Random file upload lol
                         </div>
-                        <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xl md:text-2xl">
+                        <div className="flex gap-2 items-center text-neutral-700 text-xl md:text-2xl">
                             ✅ Himesh Reshammiya Music CD
                         </div>
-                        <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xl md:text-2xl">
+                        <div className="flex gap-2 items-center text-neutral-700 text-xl md:text-2xl">
                             ✅ Salman Bhai Fan Club registrations open
                         </div>
                     </div>

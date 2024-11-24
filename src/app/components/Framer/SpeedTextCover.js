@@ -36,7 +36,7 @@ export const SpeedTextCover = ({
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
             ref={ref}
-            className={`relative ${main} hover:bg-neutral-900  group/cover inline-block dark:bg-neutral-900 px-2 py-2  transition duration-200 rounded-sm`}>
+            className={`relative ${main} hover:bg-neutral-900  group/cover inline-block px-2 py-2  transition duration-200 rounded-sm`}>
             <AnimatePresence>
                 {hovered && (
                     <motion.div
@@ -123,7 +123,7 @@ export const SpeedTextCover = ({
                     },
                 }}
                 className={cn(
-                    "dark:text-white inline-block text-neutral-800 relative z-20 group-hover/cover:text-white transition duration-200",
+                    "inline-block text-neutral-800 relative z-20 group-hover/cover:text-white transition duration-200",
                     className
                 )}>
                 {children}

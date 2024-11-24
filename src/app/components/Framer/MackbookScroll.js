@@ -2,7 +2,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
-import { cn } from "@/app/lib/utils";
 
 export const MacbookScroll = ({
     src,
@@ -119,7 +118,7 @@ export const MacbookScroll = ({
                 translate={translate} />
             {/* Base area */}
             <div
-                className="h-44 md:h-[22rem] w-full max-w-72 md:max-w-[32rem] bg-gray-200 dark:bg-[#272729] rounded-2xl overflow-hidden relative -z-10">
+                className="h-44 md:h-[22rem] w-full max-w-72 md:max-w-[32rem] bg-gray-200 rounded-2xl overflow-hidden relative -z-10">
                 {/* above keyboard bar */}
                 <div className="h-6 md:h-10 w-full relative">
                     <div className="absolute inset-x-0 mx-auto w-[80%] h-4 bg-[#050505]" />

@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 const FAQ = () => {
     return (
-        <section id='faq' className="relative z-20 overflow-hidden bg-white pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px]">
+        <section id='faq' className="relative z-20 overflow-hidden bg-white pb-12 pt-20 lg:pb-[90px] lg:pt-[120px]">
             <div className="container px-3">
                 <div className="-mx-4 flex flex-wrap">
                     <div className="w-full px-4 lg:w-1/2">
@@ -71,12 +71,12 @@ const AccordionItem = ({ header, text }) => {
         setActive(!active);
     };
     return (
-        <div className="mb-8 w-full rounded-lg bg-white p-4 shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] dark:bg-dark-2 dark:shadow-[0px_20px_95px_0px_rgba(0,0,0,0.30)] sm:p-8 lg:px-6 xl:px-8">
+        <div className="mb-8 w-full rounded-lg bg-white p-4 shadow-[0px_20px_95px_0px_rgba(201,203,204,0.30)] sm:p-8 lg:px-6 xl:px-8">
             <button
                 className={`faq-btn flex w-full text-left`}
                 onClick={() => handleToggle()}
             >
-                <div className="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary/5 text-primary dark:bg-white/5">
+                <div className="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary/5 text-primary">
                     <svg
                         className={`fill-primary stroke-primary duration-200 ease-in-out ${active ? "rotate-180" : ""
                             }`}
@@ -93,7 +93,7 @@ const AccordionItem = ({ header, text }) => {
                     </svg>
                 </div>
                 <div className="w-full">
-                    <h4 className="mt-1 text-lg font-semibold text-dark dark:text-white">
+                    <h4 className="mt-1 text-lg font-semibold">
                         {header}
                     </h4>
                 </div>
@@ -102,7 +102,7 @@ const AccordionItem = ({ header, text }) => {
                 className={`pl-[62px] duration-200 ease-in-out ${active ? "block" : "hidden"
                     }`}
             >
-                <p className="py-3 text-base leading-relaxed text-body-color dark:text-dark-6">
+                <p className="py-3 text-base leading-relaxed text-body-color">
                     {text}
                 </p>
             </div>

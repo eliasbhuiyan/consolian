@@ -1,8 +1,7 @@
 "use client"
 import Link from 'next/link';
 import React, { useState } from 'react'
-import { FaFacebook, FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa'
-import { IoLogoWhatsapp } from 'react-icons/io5';
+import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { LuHeartHandshake } from "react-icons/lu";
 import { RiWhatsappFill } from 'react-icons/ri';
 const Contact = () => {
