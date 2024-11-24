@@ -66,8 +66,8 @@ export default FAQ;
 const AccordionItem = ({ header, text }) => {
     const [active, setActive] = useState(false);
 
-    const handleToggle = () => {
-        event.preventDefault();
+    const handleToggle = (e) => {
+        e.preventDefault();
         setActive(!active);
     };
     return (
