@@ -1,7 +1,13 @@
 {
   "name": "consolian",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "author": {
+    "name": "Elias Bhuiyan",
+    "email": "eliasbhuiyan21@gmail.com"
+  },
+  "license": "MIT",
+  "description": "Consolian | Software Agency by Elias Bhuiyan",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,8 +15,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@splidejs/react-splide": "^0.7.12",
-    "@splidejs/splide-extension-auto-scroll": "^0.5.3",
     "@studio-freight/react-lenis": "^0.0.47",
     "@tabler/icons-react": "^3.19.0",
     "@tsparticles/react": "^3.0.0",
