@@ -2,7 +2,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
-
 export const MacbookScroll = ({
     src,
     showGradient,
