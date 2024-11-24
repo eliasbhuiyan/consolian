@@ -2,17 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body {
   font-family: Arial, Helvetica, sans-serif;
-}
-html{
-  scroll-behavior: smooth;
 }
 .splide__arrows.splide__arrows--ltr{
   @apply hidden
 }
-
 @layer components {
   .review {
     @apply  px-5 bg-basic text-center border-8 border-basic rounded-3xl shadow-[inset_5px_5px_10px_#bbb,inset_-5px_-5px_10px_#fff];
@@ -24,7 +19,6 @@ html{
   .content {
     @apply p-3 text-center rounded-xl text-primary bg-basic m-auto my-5 shadow-[8px_8px_10px_#ddd,_-8px_-8px_10px_#fff];
   }
-  /* From Uiverse.io by vinodjangid07 */ 
 .Btn {
   width: 35px;
   height: 35px;
@@ -75,7 +69,6 @@ html{
   backdrop-filter: blur(4px);
 }
 
-/* From Uiverse.io by javierBarroso */ 
 .social-login-icons {
   display: flex;
   align-items: center;

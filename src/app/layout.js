@@ -29,7 +29,8 @@ export default function RootLayout({ children }) {
         className={`antialiased cursor shape`}
       >
         <SideNav />
-        <SmoothScrolling>{children}</SmoothScrolling>
+        {children}
+        <SmoothScrolling></SmoothScrolling>
       </body>
     </html>
   );
