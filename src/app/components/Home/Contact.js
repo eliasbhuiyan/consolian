@@ -36,9 +36,9 @@ const Contact = () => {
     };
     return (
         <section id='contact' className="flex flex-col items-center justify-center p-10 bg-basic">
-            <h1 className="text-5xl font-bold mb-10 flex flex-col items-center gap-2 text-slate-700"><LuHeartHandshake /> <span>Get in touch</span></h1>
-            <div className="container flex gap-10 items-center">
-                <form className="flex flex-col w-1/2" onSubmit={handleSubmit} method="POST">
+            <h1 className="text-xl md:text-5xl font-bold mb-10 flex flex-col items-center gap-2 text-slate-700"><LuHeartHandshake /> <span>Get in touch</span></h1>
+            <div className="container flex flex-col lg:flex-row gap-10 items-center">
+                <form className="flex flex-col w-full lg:w-1/2" onSubmit={handleSubmit} method="POST">
                     <label className="block mb-2" htmlFor="name">
                         Name <span className='text-red-500'>*</span>
                     </label>
@@ -57,9 +57,9 @@ const Contact = () => {
                     <textarea required onChange={handleChange} value={formData.message} className="block w-full px-4 py-2 mb-3 text-xl text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-indigo-200 focus:border-indigo-300" name="message" id="message" rows="5"></textarea>
                     <button className="block w-full px-4 py-2 text-xl font-semibold text-white bg-indigo-600 border border-indigo-600 rounded-md shadow-sm focus:outline-none focus:ring focus:ring-indigo-200 focus:border-indigo-300" type="submit">Send</button>
                 </form>
-                <div className='w-1/2'>
-                    <h3 className="text-5xl font-bold mb-5 text-slate-600">It’s time to build something exciting!</h3>
-                    <p className='text-xl text-primary'>I&apos;d love to hear from you and explore how we can collaborate on exciting projects or discuss any questions you might have. Whether you&apos;re an aspiring client looking to bring your digital dreams to life or a fellow developer interested in sharing knowledge, my virtual door is always open. Please feel free to reach out me.Let&apos;s engage in a conversation about your ideas and how we can turn them into digital realities. I&apos;m eager to connect and explore the endless possibilities of the web together.
+                <div className='w-full lg:w-1/2'>
+                    <h3 className="text-2xl md:text-5xl font-bold mb-5 text-slate-600">It’s time to build something exciting!</h3>
+                    <p className='text-base md:text-xl text-primary'>I&apos;d love to hear from you and explore how we can collaborate on exciting projects or discuss any questions you might have. Whether you&apos;re an aspiring client looking to bring your digital dreams to life or a fellow developer interested in sharing knowledge, my virtual door is always open. Please feel free to reach out me.Let&apos;s engage in a conversation about your ideas and how we can turn them into digital realities. I&apos;m eager to connect and explore the endless possibilities of the web together.
                     </p>
                     <div className="social-login-icons">
                         <div className="socialcontainer">
