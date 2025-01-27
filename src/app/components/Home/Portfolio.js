@@ -11,15 +11,27 @@ export function Portfolio() {
     const [screenSize, setScreenSize] = useState("100%");
     const tabs = [
         {
-            title: "Agency",
-            value: "Agency",
+            title: "All",
+            value: "All",
             content: (
                 <div
                     className="w-full relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 h-full">
                         <div className="h-[20vh] sm:h-[40vh] md:h-[20vh] rounded-xl overflow-hidden relative group">
-                            <Image src="" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
-                            <button onClick={() => { setOpen(true), setUrl("") }} className="absolute top-0 left-0 w-full h-full z-10 bg-[rgba(0,0,0,0.3)] text-lg flex justify-center items-center gap-2 scale-0 group-hover:scale-100 transition-all">View <IoOpenOutline /></button>
+                            <Image src="/thumble/marketree.jpg" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
+                            <button onClick={() => { setOpen(true), setUrl("https://marketree.vercel.app/") }} className="absolute top-0 left-0 w-full h-full z-10 bg-[rgba(0,0,0,0.3)] text-lg flex justify-center items-center gap-2 scale-0 group-hover:scale-100 transition-all">Marketree <IoOpenOutline /></button>
+                        </div>
+                        <div className="h-[20vh] sm:h-[40vh] md:h-[20vh] rounded-xl overflow-hidden relative group">
+                            <Image src="/thumble/furniture.jpg" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
+                            <button onClick={() => { setOpen(true), setUrl("https://furnituremarket.vercel.app/") }} className="absolute top-0 left-0 w-full h-full z-10 bg-[rgba(0,0,0,0.3)] text-lg flex justify-center items-center gap-2 scale-0 group-hover:scale-100 transition-all">Furniture <IoOpenOutline /></button>
+                        </div>
+                        <div className="h-[20vh] sm:h-[40vh] md:h-[20vh] rounded-xl overflow-hidden relative group">
+                            <Image src="/thumble/easybuy.png" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
+                            <button onClick={() => { setOpen(true), setUrl("https://easybuy-one.vercel.app/") }} className="absolute top-0 left-0 w-full h-full z-10 bg-[rgba(0,0,0,0.3)] text-lg flex justify-center items-center gap-2 scale-0 group-hover:scale-100 transition-all">EasyBuy <IoOpenOutline /></button>
+                        </div>
+                        <div className="h-[20vh] sm:h-[40vh] md:h-[20vh] rounded-xl overflow-hidden relative group">
+                            <Image src="/thumble/yourschool.png" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
+                            <button onClick={() => { setOpen(true), setUrl("https://yourschool.vercel.app/") }} className="absolute top-0 left-0 w-full h-full z-10 bg-[rgba(0,0,0,0.3)] text-lg flex justify-center items-center gap-2 scale-0 group-hover:scale-100 transition-all">View <IoOpenOutline /></button>
                         </div>
                     </div>
                 </div>
@@ -54,11 +66,10 @@ export function Portfolio() {
             content: (
                 <div
                     className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-                    <p>Educational</p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 h-full">
                         <div className="h-[20vh] sm:h-[40vh] md:h-[20vh] rounded-xl overflow-hidden relative group">
-                            <Image src="" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
-                            <button onClick={() => { setOpen(true), setUrl("") }} className="absolute top-0 left-0 w-full h-full z-10 bg-[rgba(0,0,0,0.3)] text-lg flex justify-center items-center gap-2 scale-0 group-hover:scale-100 transition-all">View <IoOpenOutline /></button>
+                            <Image src="/thumble/yourschool.png" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
+                            <button onClick={() => { setOpen(true), setUrl("https://yourschool.vercel.app/") }} className="absolute top-0 left-0 w-full h-full z-10 bg-[rgba(0,0,0,0.3)] text-lg flex justify-center items-center gap-2 scale-0 group-hover:scale-100 transition-all">View <IoOpenOutline /></button>
                         </div>
                     </div>
                 </div>
