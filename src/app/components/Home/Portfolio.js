@@ -23,15 +23,35 @@ export function Portfolio() {
                         </div>
                         <div className="h-[20vh] sm:h-[40vh] md:h-[20vh] rounded-xl overflow-hidden relative group">
                             <Image src="/thumble/furniture.jpg" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
-                            <button onClick={() => { setOpen(true), setUrl("https://furnituremarket.vercel.app/") }} className="absolute top-0 left-0 w-full h-full z-10 bg-[rgba(0,0,0,0.3)] text-lg flex justify-center items-center gap-2 scale-0 group-hover:scale-100 transition-all">Furniture <IoOpenOutline /></button>
+                            <button onClick={() => { setOpen(true), setUrl("https://furnituremarket.vercel.app") }} className="absolute top-0 left-0 w-full h-full z-10 bg-[rgba(0,0,0,0.3)] text-lg flex justify-center items-center gap-2 scale-0 group-hover:scale-100 transition-all">Furniture <IoOpenOutline /></button>
                         </div>
                         <div className="h-[20vh] sm:h-[40vh] md:h-[20vh] rounded-xl overflow-hidden relative group">
                             <Image src="/thumble/easybuy.png" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
-                            <button onClick={() => { setOpen(true), setUrl("https://easybuy-one.vercel.app/") }} className="absolute top-0 left-0 w-full h-full z-10 bg-[rgba(0,0,0,0.3)] text-lg flex justify-center items-center gap-2 scale-0 group-hover:scale-100 transition-all">EasyBuy <IoOpenOutline /></button>
+                            <button onClick={() => { setOpen(true), setUrl("https://easybuy-one.vercel.app") }} className="absolute top-0 left-0 w-full h-full z-10 bg-[rgba(0,0,0,0.3)] text-lg flex justify-center items-center gap-2 scale-0 group-hover:scale-100 transition-all">EasyBuy <IoOpenOutline /></button>
                         </div>
                         <div className="h-[20vh] sm:h-[40vh] md:h-[20vh] rounded-xl overflow-hidden relative group">
                             <Image src="/thumble/yourschool.png" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
-                            <button onClick={() => { setOpen(true), setUrl("https://yourschool.vercel.app/") }} className="absolute top-0 left-0 w-full h-full z-10 bg-[rgba(0,0,0,0.3)] text-lg flex justify-center items-center gap-2 scale-0 group-hover:scale-100 transition-all">View <IoOpenOutline /></button>
+                            <button onClick={() => { setOpen(true), setUrl("https://yourschool.vercel.app") }} className="absolute top-0 left-0 w-full h-full z-10 bg-[rgba(0,0,0,0.3)] text-lg flex justify-center items-center gap-2 scale-0 group-hover:scale-100 transition-all">School management system <IoOpenOutline /></button>
+                        </div>
+                        <div className="h-[20vh] sm:h-[40vh] md:h-[20vh] rounded-xl overflow-hidden relative group">
+                            <Image src="/thumble/aiassistant.png" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
+                            <button onClick={() => { setOpen(true), setUrl("https://eb-aiassistant.vercel.app") }} className="absolute top-0 left-0 w-full h-full z-10 bg-[rgba(0,0,0,0.3)] text-lg flex justify-center items-center gap-2 scale-0 group-hover:scale-100 transition-all">AI Assistant <IoOpenOutline /></button>
+                        </div>
+                        <div className="h-[20vh] sm:h-[40vh] md:h-[20vh] rounded-xl overflow-hidden relative group">
+                            <Image src="/thumble/trust.png" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
+                            <button onClick={() => { setOpen(true), setUrl("https://stellix-wheat.vercel.app") }} className="absolute top-0 left-0 w-full h-full z-10 bg-[rgba(0,0,0,0.3)] text-lg flex justify-center items-center gap-2 scale-0 group-hover:scale-100 transition-all">Crypto <IoOpenOutline /></button>
+                        </div>
+                        <div className="h-[20vh] sm:h-[40vh] md:h-[20vh] rounded-xl overflow-hidden relative group">
+                            <Image src="/thumble/profilesharing.jpg" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
+                            <button onClick={() => { setOpen(true), setUrl("https://profile-sharing.vercel.app/signin") }} className="absolute top-0 left-0 w-full h-full z-10 bg-[rgba(0,0,0,0.3)] text-lg flex justify-center items-center gap-2 scale-0 group-hover:scale-100 transition-all">Profile Sharing <IoOpenOutline /></button>
+                        </div>
+                        <div className="h-[20vh] sm:h-[40vh] md:h-[20vh] rounded-xl overflow-hidden relative group">
+                            <Image src="/thumble/whassup.jpg" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
+                            <button onClick={() => { setOpen(true), setUrl("https://whassup-roan.vercel.app/login") }} className="absolute top-0 left-0 w-full h-full z-10 bg-[rgba(0,0,0,0.3)] text-lg flex justify-center items-center gap-2 scale-0 group-hover:scale-100 transition-all">WhaSsuP - Social Media Platform <IoOpenOutline /></button>
+                        </div>
+                        <div className="h-[20vh] sm:h-[40vh] md:h-[20vh] rounded-xl overflow-hidden relative group">
+                            <Image src="/thumble/dashbord.png" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
+                            <button onClick={() => { setOpen(true), setUrl("https://easybuy-dashbord.vercel.app") }} className="absolute top-0 left-0 w-full h-full z-10 bg-[rgba(0,0,0,0.3)] text-lg flex justify-center items-center gap-2 scale-0 group-hover:scale-100 transition-all">Dashbord - E-Commerce <IoOpenOutline /></button>
                         </div>
                     </div>
                 </div>
@@ -151,9 +171,9 @@ export function Portfolio() {
             </div>
             {
                 open &&
-                <div className="h-screen w-full rounded-xl overflow-hidden fixed top-0 left-0 bg-white z-[999999]">
-                    <div style={{ width: screenSize }} className={`overscroll-y-auto h-full m-auto`}>
-                        <div className="flex justify-center items-center text-brand bg-white py-4 text-3xl gap-4 relative">
+                <div className="h-screen w-full rounded-xl overflow-hidden fixed top-0 left-0 right-0 bottom-0 bg-white z-[999999]">
+                    <div className={`h-full m-auto flex flex-col items-center pb-10`}>
+                        <div className="flex justify-center items-center text-brand bg-white py-4 text-3xl gap-4 relative w-full">
                             <button onClick={() => setScreenSize("100%")}>
                                 <FaLaptop className="text-4xl" />
                             </button>
@@ -167,7 +187,7 @@ export function Portfolio() {
                                 <IoClose className="text-4xl" />
                             </button>
                         </div>
-                        <iframe src={url} frameborder="0" className="w-full h-full"></iframe>
+                        <iframe src={url} frameborder="0" style={{ width: screenSize }} className="h-screen overflow-y-auto shadow-2xl"></iframe>
                     </div>
                 </div>
             }
