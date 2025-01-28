@@ -4,6 +4,7 @@ import { PortfolioTabs } from "../Framer/PortfolioTabs";
 import { IoClose, IoOpenOutline } from "react-icons/io5";
 import { useState } from "react";
 import { FaLaptop, FaMobileAlt, FaTabletAlt } from "react-icons/fa";
+import Link from "next/link";
 
 export function Portfolio() {
     const [open, setOpen] = useState(false);
@@ -52,6 +53,14 @@ export function Portfolio() {
                         <div className="h-[20vh] sm:h-[40vh] md:h-[20vh] rounded-xl overflow-hidden relative group">
                             <Image src="/thumble/dashbord.png" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
                             <button onClick={() => { setOpen(true), setUrl("https://easybuy-dashbord.vercel.app") }} className="absolute top-0 left-0 w-full h-full z-10 bg-[rgba(0,0,0,0.3)] text-lg flex justify-center items-center gap-2 scale-0 group-hover:scale-100 transition-all">Dashbord - E-Commerce <IoOpenOutline /></button>
+                        </div>
+                        <div className="h-[20vh] sm:h-[40vh] md:h-[20vh] rounded-xl overflow-hidden relative group">
+                            <Image src="/thumble/navbar.jpg" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
+                            <button onClick={() => { setOpen(true), setUrl("https://eb-responsive-navigation.vercel.app") }} className="absolute top-0 left-0 w-full h-full z-10 bg-[rgba(0,0,0,0.3)] text-lg flex justify-center items-center gap-2 scale-0 group-hover:scale-100 transition-all">Responsive-Navigation - NPM <IoOpenOutline /></button>
+                        </div>
+                        <div className="h-[20vh] sm:h-[40vh] md:h-[20vh] rounded-xl overflow-hidden relative group">
+                            <Image src="/thumble/product-slider.png" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" />
+                            <Link href="https://www.npmjs.com/package/product-slide" target="_blank" className="absolute top-0 left-0 w-full h-full z-10 bg-[rgba(0,0,0,0.3)] text-lg flex justify-center items-center gap-2 scale-0 group-hover:scale-100 transition-all">Responsive-Navigation - NPM <IoOpenOutline /></Link>
                         </div>
                     </div>
                 </div>
