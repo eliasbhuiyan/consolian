@@ -2,7 +2,6 @@ import localFont from "next/font/local";
 import { Roboto } from 'next/font/google'
 import "./globals.css";
 import { SideNav } from "./components/Navbar/SideNav";
-import SmoothScrolling from "./lib/SmoothScroll";
 
 
 export const metadata = {
@@ -30,7 +29,6 @@ export default function RootLayout({ children }) {
       >
         <SideNav />
         {children}
-        <SmoothScrolling></SmoothScrolling>
       </body>
     </html>
   );
