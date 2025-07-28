@@ -26,7 +26,7 @@ const Banner = () => {
             Contact
           </button>
         </div>
-        <h1 className="text-white text-xs lg:text-lg xl:text-xl font-normal lg:font-bold flex justify-between">
+        <h2 className="text-white text-xs lg:text-lg xl:text-xl font-normal lg:font-bold flex justify-between">
           <span>G</span>
           <span>E</span>
           <span>T</span>
@@ -47,10 +47,10 @@ const Banner = () => {
           <span>I</span>
           <span>C</span>
           <span>E</span>
-        </h1>
+        </h2>
         <div className="container flex flex-col md:flex-row items-center gap-6 py-10">
           <div className="w-full md:w-3/5 xl:w-1/2">
-            <h2 className="text-white text-[24px] lg:text-3xl xl:text-6xl font-semibold lg:font-bold md:!leading-[50px] lg:!leading-[80px] text-center md:text-start">
+            <h1 className="text-white text-[24px] lg:text-3xl xl:text-6xl font-semibold lg:font-bold md:!leading-[50px] lg:!leading-[80px] text-center md:text-start">
               Create Exparience With Us, Make Your{" "}
               <FlipWords
                 words={words}
@@ -59,7 +59,7 @@ const Banner = () => {
                 }
               />{" "}
               Website & Grow Your Business.
-            </h2>
+            </h1>
           </div>
           <Compare />
         </div>
