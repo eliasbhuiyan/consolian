@@ -1,5 +1,3 @@
-import localFont from "next/font/local";
-import { Roboto } from 'next/font/google'
 import "./globals.css";
 import { SideNav } from "./components/Navbar/SideNav";
 

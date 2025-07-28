@@ -2,6 +2,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
+import laptopscreen from "../../../../public/lottieFiles/laptopscreen.json";
+import Lottie from "lottie-react";
 export const MacbookScroll = ({ src }) => {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
@@ -29,13 +31,11 @@ export const MacbookScroll = ({ src }) => {
   );
   const translate = useTransform(scrollYProgress, [0, 1], [0, 1500]);
   const rotate = useTransform(scrollYProgress, [0.1, 0.12, 0.3], [-28, -28, 0]);
-  const textTransform = useTransform(scrollYProgress, [0, 0.3], [0, 100]);
-  const textOpacity = useTransform(scrollYProgress, [0, 0.2], [1, 0]);
 
   return (
     <div
       ref={ref}
-      className="min-h-[150vh] md:min-h-[200vh] relative bg-slate-950 w-full h-4/5 overflow-hidden flex flex-col items-center py-0 md:py-80 justify-start flex-shrink-0 [perspective:800px] transform"
+      className="min-h-[100vh] md:min-h-[150vh] relative bg-slate-950 w-full h-4/5 overflow-hidden flex flex-col items-center py-0 md:py-80 justify-start flex-shrink-0 [perspective:800px] transform"
     >
       <div className="absolute top-5 md:top-20 flex w-full flex-1 scale-y-50 md:scale-y-125 scale-x-50 md:scale-x-100 items-center justify-center isolate z-0 ">
         <motion.div
@@ -133,6 +133,7 @@ export const MacbookScroll = ({ src }) => {
               width={400}
               height={400}
               layout="responsive"
+              loading="lazy"
             />
           </div>
           <div className="mx-auto w-[10%] overflow-hidden h-full">
@@ -161,7 +162,7 @@ export const Lid = ({ scaleX, scaleY, rotate, translate }) => {
           style={{
             boxShadow: "0px 2px 0px 2px var(--neutral-900) inset",
           }}
-          className="absolute inset-0 bg-[#010101] rounded-lg flex items-center justify-center"
+          className="absolute inset-0 bg-[#1f2531] rounded-lg flex items-center justify-center"
         >
           <p className="text-white font-semibold [text-shadow:4px_4px_2px_rgba(255,255,255,0.8)]">
             Elias Bhuiyan
@@ -177,17 +178,9 @@ export const Lid = ({ scaleX, scaleY, rotate, translate }) => {
           transformStyle: "preserve-3d",
           transformOrigin: "top",
         }}
-        className="h-72 md:h-96 w-full overflow-hidden max-w-72 md:max-w-[32rem] absolute inset-0 bg-[#010101] rounded-2xl p-2"
+        className="h-72 md:h-96 w-full transition-all overflow-hidden max-w-72 md:max-w-[32rem] absolute inset-0 rounded-2xl"
       >
-        <div className="absolute inset-0 bg-[#272729] rounded-lg" />
-        <Image
-          src="/macbookScreen.png"
-          alt="consolian"
-          width={400}
-          height={500}
-          layout="responsive"
-          className="object-cover absolute rounded-lg inset-0"
-        />
+        <Lottie className="w-full h-full" animationData={laptopscreen} />
       </motion.div>
     </div>
   );
