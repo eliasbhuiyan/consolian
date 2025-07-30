@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import { Parallax } from "../Framer/Parallax";
 const products = [

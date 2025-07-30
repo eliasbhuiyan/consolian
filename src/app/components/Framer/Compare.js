@@ -1,7 +1,7 @@
 import { SparklesCore } from "./Sparkles";
 import Image from "next/image";
-
-export const Compare = ({ firstImage = "/heroImages/compare.png" }) => {
+import  firstImage from "../../../../public/heroImages/compare.png"
+export const Compare = ({  }) => {
   return (
     <div className="relative w-full md:w-2/5 h-full bg-white rounded-3xl overflow-hidden">
       <Image
@@ -11,7 +11,8 @@ export const Compare = ({ firstImage = "/heroImages/compare.png" }) => {
         height={0}
         sizes="100%"
         className="w-full h-full"
-      />
+        placeholder="blur"
+        />
       <div className="w-3/4 h-full rotate-90 absolute top-0 left-1/2 -translate-x-1/2 cliping">
         {/* Gradients */}
         <div className="absolute inset-x-0 top-1/2 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-full blur-sm" />

@@ -10,6 +10,16 @@ body {
   @apply hidden;
 }
 @layer components {
+  #banner {
+    background: #e7cdb6;
+    background: linear-gradient(
+      147deg,
+      rgba(231, 205, 182, 1) 0%,
+      rgba(160, 221, 198, 1) 31%,
+      rgba(205, 233, 193, 1) 62%,
+      rgba(160, 221, 198, 1) 100%
+    );
+  }
   .review {
     @apply px-5 bg-basic text-center border-8 border-basic rounded-3xl shadow-[inset_5px_5px_10px_#bbb,inset_-5px_-5px_10px_#fff];
   }

@@ -1,17 +1,15 @@
 import React from "react";
 import Link from "next/link";
-import { HeroBg } from "../Framer/HeroBg";
 import { FlipWords } from "../Framer/FlipWords";
 import { Compare } from "../Framer/Compare";
 
 const Banner = () => {
   const words = ["Better", "Beautiful", "Modern"];
   return (
-    <header
+    <section
       id="banner"
-      className="relative z-10 py-10 md:py-20 lg:py-24 overflow-hidden flex items-center justify-center bg-[url('/bg.jpg')] bg-no-repeat bg-cover bg-center"
+      className="relative z-10 py-10 md:py-20 lg:py-24 overflow-hidden flex items-center justify-center bg-no-repeat bg-cover bg-center"
     >
-      <HeroBg />
       <div className="sm:mx-14 lg:mx-20 z-20 border bg-heroBg shadow-[0px_0px_28px_5px_rgba(255,255,255,1)] px-2 sm:px-6 lg:px-10">
         <div className="pt-6 pb-4 flex justify-between border-b border-b-white">
           <div>
@@ -64,7 +62,7 @@ const Banner = () => {
           <Compare />
         </div>
       </div>
-    </header>
+    </section>
   );
 };
 
