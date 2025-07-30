@@ -9,7 +9,7 @@ const About = () => {
             <div className="container">
                 <div className="flex flex-col lg:flex-row items-center gap-10">
                     <MovingCard containerClassName="w-2/5">
-                        <Image src={eliasBhuiyan} placeholder="blur"  width={500} height={500} layout='responsive' className='w-full rounded-2xl' alt='elias bhuiyan' />
+                        <Image src={eliasBhuiyan} placeholder="blur"  width={500} height={500} className='w-full rounded-2xl' alt='elias bhuiyan' />
                     </MovingCard>
                     <div className='w-full lg:w-3/5'>
                         <TextRevealCard

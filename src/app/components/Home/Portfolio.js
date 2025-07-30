@@ -23,7 +23,6 @@ export function Portfolio() {
                 alt="a dream catcher"
                 width={400}
                 height={400}
-                layout="responsive"
                 className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full"
               />
               <button
@@ -41,7 +40,6 @@ export function Portfolio() {
                 alt="a dream catcher"
                 width={400}
                 height={400}
-                layout="responsive"
                 className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full"
               />
               <button
@@ -59,7 +57,6 @@ export function Portfolio() {
                 alt="a dream catcher"
                 width={400}
                 height={400}
-                layout="responsive"
                 className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full"
               />
               <button
@@ -77,7 +74,6 @@ export function Portfolio() {
                 alt="a dream catcher"
                 width={400}
                 height={400}
-                layout="responsive"
                 className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full"
               />
               <button
@@ -95,7 +91,6 @@ export function Portfolio() {
                 alt="a dream catcher"
                 width={400}
                 height={400}
-                layout="responsive"
                 className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full"
               />
               <button
@@ -113,7 +108,6 @@ export function Portfolio() {
                 alt="a dream catcher"
                 width={400}
                 height={400}
-                layout="responsive"
                 className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full"
               />
               <button
@@ -131,7 +125,6 @@ export function Portfolio() {
                 alt="a dream catcher"
                 width={400}
                 height={400}
-                layout="responsive"
                 className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full"
               />
               <button
@@ -150,7 +143,6 @@ export function Portfolio() {
                 alt="a dream catcher"
                 width={400}
                 height={400}
-                layout="responsive"
                 className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full"
               />
               <button
@@ -169,7 +161,6 @@ export function Portfolio() {
                 alt="a dream catcher"
                 width={400}
                 height={400}
-                layout="responsive"
                 className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full"
               />
               <button
@@ -187,7 +178,6 @@ export function Portfolio() {
                 alt="a dream catcher"
                 width={400}
                 height={400}
-                layout="responsive"
                 className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full"
               />
               <button
@@ -206,7 +196,6 @@ export function Portfolio() {
                 alt="a dream catcher"
                 width={400}
                 height={400}
-                layout="responsive"
                 className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full"
               />
               <Link
@@ -233,7 +222,6 @@ export function Portfolio() {
                 alt="a dream catcher"
                 width={400}
                 height={400}
-                layout="responsive"
                 className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full"
               />
               <button
@@ -251,7 +239,6 @@ export function Portfolio() {
                 alt="a dream catcher"
                 width={400}
                 height={400}
-                layout="responsive"
                 className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full"
               />
               <button
@@ -269,7 +256,6 @@ export function Portfolio() {
                 alt="a dream catcher"
                 width={400}
                 height={400}
-                layout="responsive"
                 className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full"
               />
               <button
@@ -297,7 +283,6 @@ export function Portfolio() {
                 alt="a dream catcher"
                 width={400}
                 height={400}
-                layout="responsive"
                 className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full"
               />
               <button
@@ -321,7 +306,7 @@ export function Portfolio() {
           <p>Dashbord</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 h-full">
             <div className="h-[20vh] sm:h-[40vh] md:h-[20vh] rounded-xl overflow-hidden relative group">
-              {/* <Image src="" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" /> */}
+              {/* <Image src="" alt="a dream catcher" width={400} height={400}  className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" /> */}
               <button
                 onClick={() => {
                   setOpen(true), setUrl("");
@@ -343,7 +328,7 @@ export function Portfolio() {
           <p>Business</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 h-full">
             <div className="h-[20vh] sm:h-[40vh] md:h-[20vh] rounded-xl overflow-hidden relative group">
-              {/* <Image src="" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" /> */}
+              {/* <Image src="" alt="a dream catcher" width={400} height={400}  className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" /> */}
               <button
                 onClick={() => {
                   setOpen(true), setUrl("");
@@ -365,7 +350,7 @@ export function Portfolio() {
           <p>Social Media</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 h-full">
             <div className="h-[20vh] sm:h-[40vh] md:h-[20vh] rounded-xl overflow-hidden relative group">
-              {/* <Image src="" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" /> */}
+              {/* <Image src="" alt="a dream catcher" width={400} height={400}  className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" /> */}
               <button
                 onClick={() => {
                   setOpen(true), setUrl("");
@@ -387,7 +372,7 @@ export function Portfolio() {
           <p>NPM Package</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 h-full">
             <div className="h-[20vh] sm:h-[40vh] md:h-[20vh] rounded-xl overflow-hidden relative group">
-              {/* <Image src="" alt="a dream catcher" width={400} height={400} layout="responsive" className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" /> */}
+              {/* <Image src="" alt="a dream catcher" width={400} height={400}  className="absolute top-0 left-0 transition-all duration-1000 group-hover:-top-full" /> */}
               <button
                 onClick={() => {
                   setOpen(true), setUrl("");

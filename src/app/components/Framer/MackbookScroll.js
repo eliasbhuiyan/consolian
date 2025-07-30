@@ -134,7 +134,6 @@ export const MacbookScroll = ({ src }) => {
               alt="keybord"
               width={400}
               height={400}
-              layout="responsive"
             />
           </div>
           <div className="mx-auto w-[10%] overflow-hidden h-full">
