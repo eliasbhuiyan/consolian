@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { FlipWords } from "../Framer/FlipWords";
 import { Compare } from "../Framer/Compare";
+import ContactBtn from "./ContactBtn";
 
 const Banner = () => {
   const words = ["Better", "Beautiful", "Modern"];
@@ -20,9 +21,7 @@ const Banner = () => {
               CONSOLIAN
             </Link>
           </div>
-          <button className="bg-transparent hover:bg-white text-white font-semibold hover:text-gray-700 text-xs xl:text-xl py-1 xl:py-2 px-4 border border-white rounded-full">
-            Contact
-          </button>
+          <ContactBtn/>
         </div>
         <h2 className="text-white text-xs lg:text-lg xl:text-xl font-normal lg:font-bold flex justify-between">
           <span>G</span>
