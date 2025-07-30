@@ -2,14 +2,14 @@ import Image from 'next/image'
 import React from 'react'
 import { MovingCard } from '../Framer/MovingCard'
 import { TextRevealCard } from '../Framer/TextReveal'
-
+import eliasBhuiyan from '../../../../public/EliasBhuiyan.jpg'
 const About = () => {
     return (
         <section id='about' className='py-10 md:py-20 bg-primary'>
             <div className="container">
                 <div className="flex flex-col lg:flex-row items-center gap-10">
                     <MovingCard containerClassName="w-2/5">
-                        <Image src="/EliasBhuiyan.jpg" width={500} height={500} layout='responsive' className='w-full rounded-2xl' alt='elias bhuiyan' />
+                        <Image src={eliasBhuiyan} placeholder="blur"  width={500} height={500} layout='responsive' className='w-full rounded-2xl' alt='elias bhuiyan' />
                     </MovingCard>
                     <div className='w-full lg:w-3/5'>
                         <TextRevealCard

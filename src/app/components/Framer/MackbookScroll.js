@@ -4,6 +4,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 import laptopscreen from "../../../../public/lottieFiles/laptopscreen.json";
 import Lottie from "lottie-react";
+import keyboard from "../../../../public/keybord.png";
 export const MacbookScroll = ({ src }) => {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
@@ -128,12 +129,12 @@ export const MacbookScroll = ({ src }) => {
           <div className="mx-auto w-[80%] h-full">
             {/* <Keypad /> */}
             <Image
-              src="/keybord.png"
+              src={keyboard}
+              placeholder="blur"
               alt="keybord"
               width={400}
               height={400}
               layout="responsive"
-              loading="lazy"
             />
           </div>
           <div className="mx-auto w-[10%] overflow-hidden h-full">
@@ -152,6 +153,8 @@ export const Lid = ({ scaleX, scaleY, rotate, translate }) => {
     <div className="relative [perspective:800px] w-full max-w-72 md:max-w-[32rem] mt-48 md:mt-0">
       <div
         style={{
+
+
           transform: "perspective(800px) rotateX(-25deg) translateZ(0px)",
           transformOrigin: "bottom",
           transformStyle: "preserve-3d",
