@@ -12,6 +12,7 @@ export const Compare = ({  }) => {
         sizes="100%"
         className="w-full h-full"
         placeholder="blur"
+        loading="lazy"
         />
       <div className="w-3/4 h-full rotate-90 absolute top-0 left-1/2 -translate-x-1/2 cliping">
         {/* Gradients */}
