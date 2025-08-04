@@ -36,12 +36,12 @@ const products = [
     {
         title: "Portfolio Website",
         thumbnail:
-            "https://res.cloudinary.com/dmqqrpppn/image/upload/v1754289947/consolian/image_of_portfolio_website_hero_section_1_vzzgl1.jpg",
+        "https://res.cloudinary.com/dmqqrpppn/image/upload/v1754289945/consolian/image_of_portfolio_website_hero_section_2_xwasdd.jpg",
     },
     {
         title: "Portfolio Website",
         thumbnail:
-            "https://res.cloudinary.com/dmqqrpppn/image/upload/v1754289945/consolian/image_of_portfolio_website_hero_section_2_xwasdd.jpg",
+        "https://res.cloudinary.com/dmqqrpppn/image/upload/v1754289947/consolian/image_of_portfolio_website_hero_section_1_vzzgl1.jpg",
     },
     {
         title: "Agency Website",
