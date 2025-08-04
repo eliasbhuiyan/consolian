@@ -5,6 +5,7 @@ import Image from "next/image";
 import laptopscreen from "../../../../public/lottieFiles/laptopscreen.json";
 import Lottie from "lottie-react";
 import keyboard from "../../../../public/keybord.png";
+import waterlogo from "../../../../public/water-logo1.png";
 export const MacbookScroll = ({ src }) => {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
@@ -36,7 +37,7 @@ export const MacbookScroll = ({ src }) => {
   return (
     <div
       ref={ref}
-      className="min-h-[100vh] md:min-h-[150vh] relative bg-slate-950 w-full h-4/5 overflow-hidden flex flex-col items-center py-0 md:py-80 justify-start flex-shrink-0 [perspective:800px] transform"
+      className="min-h-[100vh] md:min-h-[150vh] relative bg-slate-950 w-full h-4/5 overflow-hidden flex flex-col items-center py-0 md:pt-80 justify-start flex-shrink-0 [perspective:800px] transform"
     >
       <div className="absolute top-5 md:top-20 flex w-full flex-1 scale-y-50 md:scale-y-125 scale-x-50 md:scale-x-100 items-center justify-center isolate z-0 ">
         <motion.div
@@ -142,6 +143,9 @@ export const MacbookScroll = ({ src }) => {
         </div>
         <Trackpad />
         <div className="h-2 w-20 mx-auto inset-x-0 absolute bottom-0 bg-gradient-to-t from-[#272729] to-[#050505] rounded-tr-3xl rounded-tl-3xl" />
+      </div>
+      <div className="mt-auto">
+        <Image src={waterlogo} placeholder="blur" alt="mackbook" width={400} height={400} leyout="responsive" />
       </div>
       {/* </div> */}
     </div>

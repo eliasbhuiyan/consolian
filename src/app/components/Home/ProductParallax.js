@@ -2,82 +2,82 @@ import React from "react";
 import { Parallax } from "../Framer/Parallax";
 const products = [
     {
-        title: "Moonbeam",
+        title: "E-Commerce Website",
         thumbnail:
-            "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
+            "https://res.cloudinary.com/dmqqrpppn/image/upload/v1754290193/consolian/e-ommerce_website_qcluwc.jpg",
     },
     {
-        title: "Cursor",
+        title: "E-Commerce Website",
         thumbnail:
-            "https://aceternity.com/images/products/thumbnails/new/cursor.png",
+            "https://res.cloudinary.com/dmqqrpppn/image/upload/v1754290130/consolian/e-ommerce_website_1_jokm4h.jpg",
     },
     {
-        title: "Rogue",
+        title: "E-Commerce Website",
         thumbnail:
-            "https://aceternity.com/images/products/thumbnails/new/rogue.png",
-    },
-
-    {
-        title: "Editorially",
-        thumbnail:
-            "https://aceternity.com/images/products/thumbnails/new/editorially.png",
-    },
-    {
-        title: "Editrix AI",
-        thumbnail:
-            "https://aceternity.com/images/products/thumbnails/new/editrix.png",
-    },
-    {
-        title: "Pixel Perfect",
-        thumbnail:
-            "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
+            "https://res.cloudinary.com/dmqqrpppn/image/upload/v1754290070/consolian/image_of_e-commerce_website_with_product_list_a5mbxo.jpg",
     },
 
     {
-        title: "Algochurn",
+        title: "Agency Website",
         thumbnail:
-            "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
+            "https://res.cloudinary.com/dmqqrpppn/image/upload/v1754289954/consolian/ChatGPT_Image_Aug_4_2025_11_49_47_AM_y1z2om.png",
     },
     {
-        title: "Aceternity UI",
+        title: "Portfolio Website",
         thumbnail:
-            "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
+            "https://res.cloudinary.com/dmqqrpppn/image/upload/v1754289947/consolian/image_of_portfolio_website_hero_section_f4v59s.jpg",
     },
     {
-        title: "Tailwind Master Kit",
+        title: "Agency Website",
         thumbnail:
-            "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
-    },
-    {
-        title: "SmartBridge",
-        thumbnail:
-            "https://aceternity.com/images/products/thumbnails/new/smartbridge.png",
-    },
-    {
-        title: "Renderwork Studio",
-        thumbnail:
-            "https://aceternity.com/images/products/thumbnails/new/renderwork.png",
+            "https://res.cloudinary.com/dmqqrpppn/image/upload/v1754289952/consolian/ChatGPT_Image_Aug_4_2025_11_49_50_AM_iljakw.png",
     },
 
     {
-        title: "Creme Digital",
+        title: "Portfolio Website",
         thumbnail:
-            "https://aceternity.com/images/products/thumbnails/new/cremedigital.png",
+            "https://res.cloudinary.com/dmqqrpppn/image/upload/v1754289947/consolian/image_of_portfolio_website_hero_section_1_vzzgl1.jpg",
     },
     {
-        title: "Golden Bells Academy",
+        title: "Portfolio Website",
         thumbnail:
-            "https://aceternity.com/images/products/thumbnails/new/goldenbellsacademy.png",
+            "https://res.cloudinary.com/dmqqrpppn/image/upload/v1754289945/consolian/image_of_portfolio_website_hero_section_2_xwasdd.jpg",
     },
     {
-        title: "Invoker Labs",
+        title: "Agency Website",
         thumbnail:
-            "https://aceternity.com/images/products/thumbnails/new/invoker.png",
+            "https://res.cloudinary.com/dmqqrpppn/image/upload/v1754289943/consolian/image_of_agency_website_hero_section_ft90zt.jpg",
     },
     {
-        title: "E Free Invoice",
+        title: "Corporate Website",
         thumbnail:
-            "https://aceternity.com/images/products/thumbnails/new/efreeinvoice.png",
+            "https://res.cloudinary.com/dmqqrpppn/image/upload/v1754289942/consolian/image_of_agency_website_hero_section_1_sd9e5y.jpg",
+    },
+    {
+        title: "Industry Website",
+        thumbnail:
+            "https://res.cloudinary.com/dmqqrpppn/image/upload/v1754289940/consolian/image_of_agency_website_hero_section_2_wll8ar.jpg",
+    },
+
+    {
+        title: "E-Commerce Website",
+        thumbnail:
+            "https://res.cloudinary.com/dmqqrpppn/image/upload/v1754289940/consolian/image_of_e-commerce_website_hero_section_kkw35z.jpg",
+    },
+    {
+        title: "E-Commerce Website",
+        thumbnail:
+            "https://res.cloudinary.com/dmqqrpppn/image/upload/v1754290066/consolian/image_of_e-commerce_website_with_product_list_2_lktcdq.jpg",
+    },
+    {
+        title: "Portfolio Website",
+        thumbnail:
+            "https://res.cloudinary.com/dmqqrpppn/image/upload/v1754290013/consolian/image_of_e-commerce_website_hero_section_1_ar1hkf.jpg",
+    },
+    {
+        title: "Startup Website",
+        thumbnail:
+            "https://res.cloudinary.com/dmqqrpppn/image/upload/v1754290068/consolian/image_of_e-commerce_website_with_product_list_1_aa516r.jpg",
     },
 ];
 export default function ProductParallax() {

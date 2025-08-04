@@ -20,10 +20,10 @@ export const Parallax = ({
 
     const translateX = useSpring(useTransform(scrollYProgress, [0, 1], [0, 1000]), springConfig);
     const translateXReverse = useSpring(useTransform(scrollYProgress, [0, 1], [0, -1000]), springConfig);
+    const translateY = useSpring(useTransform(scrollYProgress, [0, 0.2], [-400, 150]), springConfig);
     const rotateX = useSpring(useTransform(scrollYProgress, [0, 0.2], [15, 0]), springConfig);
     const opacity = useSpring(useTransform(scrollYProgress, [0, 0.2], [0.2, 1]), springConfig);
     const rotateZ = useSpring(useTransform(scrollYProgress, [0, 0.2], [20, 0]), springConfig);
-    const translateY = useSpring(useTransform(scrollYProgress, [0, 0.2], [-400, 150]), springConfig);
     return (
         (<div
             ref={ref}
@@ -92,7 +92,9 @@ export const ProductCard = ({
                     src={product.thumbnail}
                     height="600"
                     width="600"
-                    className="object-cover object-left-top absolute h-full w-full inset-0"
+                    placeholder="blur"
+                    blurDataURL={product.thumbnail}
+                    className="absolute h-full w-full inset-0"
                     alt={product.title} />
             </div>
             <div
